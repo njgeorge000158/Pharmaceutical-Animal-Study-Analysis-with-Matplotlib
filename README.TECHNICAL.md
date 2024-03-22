@@ -151,151 +151,153 @@ Jupyter Notebook, Matplotlib, Numpy, Pandas, Python 3.11.4
   
   &emsp; |&rarr; [./images/pymaceuticalsFigure8211MalevsFemaleMouseDistribution.png](./images/pymaceuticalsFigure8211MalevsFemaleMouseDistribution.png)
   
-  &emsp; |&rarr; [./images/PymaceuticalsGraph351CapomulinTreatmentofMousel897.png](./images/PymaceuticalsGraph351CapomulinTreatmentofMousel897.png)
+  &emsp; |&rarr; [./images/pymaceuticalsGraph351CapomulinTreatmentofMousem601.png](./images/pymaceuticalsGraph351CapomulinTreatmentofMousem601.png)
   
-  &emsp; |&rarr; [./images/PymaceuticalsGraph351CapomulinTreatmentofMousem601.png](./images/PymaceuticalsGraph351CapomulinTreatmentofMousem601.png)
+  &emsp; |&rarr; [./images/pymaceuticalsGraph351CapomulinTreatmentofMousev923.png](./images/pymaceuticalsGraph351CapomulinTreatmentofMousev923.png)
   
-  &emsp; |&rarr; [./images/PymaceuticalsGraph352CeftaminTreatmentofMousew151.png](./images/PymaceuticalsGraph352CeftaminTreatmentofMousew151.png)
+  &emsp; |&rarr; [./images/pymaceuticalsGraph352CeftaminTreatmentofMousex822.png](./images/pymaceuticalsGraph352CeftaminTreatmentofMousex822.png)
+
+  &emsp; |&rarr; [./images/pymaceuticalsGraph352CeftaminTreatmentofMousey865.png](./images/pymaceuticalsGraph352CeftaminTreatmentofMousey865.png)
   
-  &emsp; |&rarr; [./images/PymaceuticalsGraph353InfubinolTreatmentofMousea577.png](./images/PymaceuticalsGraph353InfubinolTreatmentofMousea577.png)
+  &emsp; |&rarr; [./images/pymaceuticalsGraph353InfubinolTreatmentofMousec895.png](./images/pymaceuticalsGraph353InfubinolTreatmentofMousec895.png)
 
-  &emsp; |&rarr; [./images/PymaceuticalsGraph353InfubinolTreatmentofMousec139.png](./images/PymaceuticalsGraph353InfubinolTreatmentofMousec139.png)
+  &emsp; |&rarr; [./images/pymaceuticalsGraph353InfubinolTreatmentofMousez581.png](./images/pymaceuticalsGraph353InfubinolTreatmentofMousez581.png)
 
-  &emsp; |&rarr; [./images/PymaceuticalsGraph354KetaprilTreatmentofMousep189.png](./images/PymaceuticalsGraph354KetaprilTreatmentofMousep189.png)
+  &emsp; |&rarr; [./images/pymaceuticalsGraph354KetaprilTreatmentofMouseu327.png](./images/pymaceuticalsGraph354KetaprilTreatmentofMouseu327.png)
 
-  &emsp; |&rarr; [./images/PymaceuticalsGraph354KetaprilTreatmentofMouseu327.png](./images/PymaceuticalsGraph354KetaprilTreatmentofMouseu327.png)
+  &emsp; |&rarr; [./images/pymaceuticalsGraph354KetaprilTreatmentofMousev603.png](./images/pymaceuticalsGraph354KetaprilTreatmentofMousev603.png)
 
-  &emsp; |&rarr; [./images/PymaceuticalsGraph355NaftisolTreatmentofMouser701.png](./images/PymaceuticalsGraph355NaftisolTreatmentofMouser701.png)
+  &emsp; |&rarr; [./images/pymaceuticalsGraph355NaftisolTreatmentofMousel725.png](./images/pymaceuticalsGraph355NaftisolTreatmentofMousel725.png)
 
-  &emsp; |&rarr; [./images/PymaceuticalsGraph355NaftisolTreatmentofMousey601.png](./images/PymaceuticalsGraph355NaftisolTreatmentofMousey601.png)
+  &emsp; |&rarr; [./images/pymaceuticalsGraph355NaftisolTreatmentofMousen304.png](./images/pymaceuticalsGraph355NaftisolTreatmentofMousen304.png)
 
-  &emsp; |&rarr; [./images/PymaceuticalsGraph356PlaceboTreatmentofMouses152.png](./images/PymaceuticalsGraph356PlaceboTreatmentofMouses152.png)
+  &emsp; |&rarr; [./images/pymaceuticalsGraph356PlaceboTreatmentofMousec766.png](./images/pymaceuticalsGraph356PlaceboTreatmentofMousec766.png)
 
-  &emsp; |&rarr; [./images/PymaceuticalsGraph356PlaceboTreatmentofMousey478.png](./images/PymaceuticalsGraph356PlaceboTreatmentofMousey478.png)
+  &emsp; |&rarr; [./images/pymaceuticalsGraph356PlaceboTreatmentofMousei477.png](./images/pymaceuticalsGraph356PlaceboTreatmentofMousei477.png)
 
-  &emsp; |&rarr; [./images/PymaceuticalsGraph357ProprivaTreatmentofMousei635.png](./images/PymaceuticalsGraph357ProprivaTreatmentofMousei635.png)
+  &emsp; |&rarr; [./images/pymaceuticalsGraph357ProprivaTreatmentofMouseg558.png](./images/pymaceuticalsGraph357ProprivaTreatmentofMouseg558.png)
 
-  &emsp; |&rarr; [./images/PymaceuticalsGraph357ProprivaTreatmentofMouses187.png](./images/PymaceuticalsGraph357ProprivaTreatmentofMouses187.png)
+  &emsp; |&rarr; [./images/pymaceuticalsGraph357ProprivaTreatmentofMousev991.png](./images/pymaceuticalsGraph357ProprivaTreatmentofMousev991.png)
 
-  &emsp; |&rarr; [./images/PymaceuticalsGraph358RamicaneTreatmentofMousej989.png](./images/PymaceuticalsGraph358RamicaneTreatmentofMousej989.png)
+  &emsp; |&rarr; [./images/pymaceuticalsGraph358ProprivaTreatmentofMousea644.png](./images/pymaceuticalsGraph358ProprivaTreatmentofMousea644.png)
 
-  &emsp; |&rarr; [./images/PymaceuticalsGraph358RamicaneTreatmentofMouses508.png](./images/PymaceuticalsGraph358RamicaneTreatmentofMouses508.png)
+  &emsp; |&rarr; [./images/pymaceuticalsGraph358ProprivaTreatmentofMousei334.png](./images/pymaceuticalsGraph358ProprivaTreatmentofMousei334.png)
 
-  &emsp; |&rarr; [./images/PymaceuticalsGraph359StelasynTreatmentofMousek862.png](./images/PymaceuticalsGraph359StelasynTreatmentofMousek862.png)
+  &emsp; |&rarr; [./images/pymaceuticalsGraph359StelasynTreatmentofMouses565.png](./images/pymaceuticalsGraph359StelasynTreatmentofMouses565.png)
 
-  &emsp; |&rarr; [./images/PymaceuticalsGraph359StelasynTreatmentofMouses565.png](./images/PymaceuticalsGraph359StelasynTreatmentofMouses565.png)
+  &emsp; |&rarr; [./images/pymaceuticalsGraph359StelasynTreatmentofMousew697.png](./images/pymaceuticalsGraph359StelasynTreatmentofMousew697.png)
 
-  &emsp; |&rarr; [./images/PymaceuticalsGraph731TumorVolumesvsMouseWeightsWithRegressionCapomulin.png](./images/PymaceuticalsGraph731TumorVolumesvsMouseWeightsWithRegressionCapomulin.png)
+  &emsp; |&rarr; [./images/pymaceuticalsGraph731TumorVolumesvsMouseWeightsWithRegressionCapomulin.png](./images/pymaceuticalsGraph731TumorVolumesvsMouseWeightsWithRegressionCapomulin.png)
 
-  &emsp; |&rarr; [./images/PymaceuticalsGraph732TumorVolumesvsMouseWeightsWithRegressionCeftamin.png](./images/PymaceuticalsGraph732TumorVolumesvsMouseWeightsWithRegressionCeftamin.png)
+  &emsp; |&rarr; [./images/pymaceuticalsGraph732TumorVolumesvsMouseWeightsWithRegressionCeftamin.png](./images/pymaceuticalsGraph732TumorVolumesvsMouseWeightsWithRegressionCeftamin.png)
 
-  &emsp; |&rarr; [./images/PymaceuticalsGraph733TumorVolumesvsMouseWeightsWithRegressionInfubinol.png](./images/PymaceuticalsGraph733TumorVolumesvsMouseWeightsWithRegressionInfubinol.png)
+  &emsp; |&rarr; [./images/pymaceuticalsGraph733TumorVolumesvsMouseWeightsWithRegressionInfubinol.png](./images/pymaceuticalsGraph733TumorVolumesvsMouseWeightsWithRegressionInfubinol.png)
 
-  &emsp; |&rarr; [./images/PymaceuticalsGraph734TumorVolumesvsMouseWeightsWithRegressionKetapril.png](./images/PymaceuticalsGraph734TumorVolumesvsMouseWeightsWithRegressionKetapril.png)
+  &emsp; |&rarr; [./images/pymaceuticalsGraph734TumorVolumesvsMouseWeightsWithRegressionKetapril.png](./images/pymaceuticalsGraph734TumorVolumesvsMouseWeightsWithRegressionKetapril.png)
 
-  &emsp; |&rarr; [./images/PymaceuticalsGraph735TumorVolumesvsMouseWeightsWithRegressionNaftisol.png](./images/PymaceuticalsGraph735TumorVolumesvsMouseWeightsWithRegressionNaftisol.png)
+  &emsp; |&rarr; [./images/pymaceuticalsGraph735TumorVolumesvsMouseWeightsWithRegressionNaftisol.png](./images/pymaceuticalsGraph735TumorVolumesvsMouseWeightsWithRegressionNaftisol.png)
 
-  &emsp; |&rarr; [./images/PymaceuticalsGraph736TumorVolumesvsMouseWeightsWithRegressionPlacebo.png](./images/PymaceuticalsGraph736TumorVolumesvsMouseWeightsWithRegressionPlacebo.png)
+  &emsp; |&rarr; [./images/pymaceuticalsGraph736TumorVolumesvsMouseWeightsWithRegressionPlacebo.png](./images/pymaceuticalsGraph736TumorVolumesvsMouseWeightsWithRegressionPlacebo.png)
 
-  &emsp; |&rarr; [./images/PymaceuticalsGraph737TumorVolumesvsMouseWeightsWithRegressionPropriva.png](./images/PymaceuticalsGraph737TumorVolumesvsMouseWeightsWithRegressionPropriva.png)
+  &emsp; |&rarr; [./images/pymaceuticalsGraph737TumorVolumesvsMouseWeightsWithRegressionPropriva.png](./images/pymaceuticalsGraph737TumorVolumesvsMouseWeightsWithRegressionPropriva.png)
 
-  &emsp; |&rarr; [./images/PymaceuticalsGraph738TumorVolumesvsMouseWeightsWithRegressionRamicane.png](./images/PymaceuticalsGraph738TumorVolumesvsMouseWeightsWithRegressionRamicane.png)
+  &emsp; |&rarr; [./images/pymaceuticalsGraph738TumorVolumesvsMouseWeightsWithRegressionRamicane.png](./images/pymaceuticalsGraph738TumorVolumesvsMouseWeightsWithRegressionRamicane.png)
 
-  &emsp; |&rarr; [./images/PymaceuticalsGraph739TumorVolumesvsMouseWeightsWithRegressionStelasyn.png](./images/PymaceuticalsGraph739TumorVolumesvsMouseWeightsWithRegressionStelasyn.png)
+  &emsp; |&rarr; [./images/pymaceuticalsGraph739TumorVolumesvsMouseWeightsWithRegressionStelasyn.png](./images/pymaceuticalsGraph739TumorVolumesvsMouseWeightsWithRegressionStelasyn.png)
 
-  &emsp; |&rarr; [./images/PymaceuticalsGraph3510ZoniferolTreatmentofMousea401.png](./images/PymaceuticalsGraph3510ZoniferolTreatmentofMousea401.png)
+  &emsp; |&rarr; [./images/pymaceuticalsGraph3510ZoniferolTreatmentofMousep136.png](./images/pymaceuticalsGraph3510ZoniferolTreatmentofMousep136.png)
 
-  &emsp; |&rarr; [./images/PymaceuticalsGraph3510ZoniferolTreatmentofMouseq633.png](./images/PymaceuticalsGraph3510ZoniferolTreatmentofMouseq633.png)
+  &emsp; |&rarr; [./images/pymaceuticalsGraph3510ZoniferolTreatmentofMousex613.png](./images/pymaceuticalsGraph3510ZoniferolTreatmentofMousex613.png)
 
-  &emsp; |&rarr; [./images/PymaceuticalsGraph7310TumorVolumesvsMouseWeightsWithRegressionZoniferol.png](./images/PymaceuticalsGraph7310TumorVolumesvsMouseWeightsWithRegressionZoniferol.png)
+  &emsp; |&rarr; [./images/pymaceuticalsGraph7310TumorVolumesvsMouseWeightsWithRegressionZoniferol.png](./images/pymaceuticalsGraph7310TumorVolumesvsMouseWeightsWithRegressionZoniferol.png)
 
-  &emsp; |&rarr; [./images/PymaceuticalsTable111CompleteMedicalStudyDataFrame.png](./images/PymaceuticalsTable111CompleteMedicalStudyDataFrame.png)
+  &emsp; |&rarr; [./images/pymaceuticalsTable111CompleteMedicalStudyDataFrame.png](./images/pymaceuticalsTable111CompleteMedicalStudyDataFrame.png)
 
-  &emsp; |&rarr; [./images/PymaceuticalsTable121MouseIDswithDuplicateTimepoints.png](./images/PymaceuticalsTable121MouseIDswithDuplicateTimepoints.png)
+  &emsp; |&rarr; [./images/pymaceuticalsTable121MouseIDswithDuplicateTimepoints.png](./images/pymaceuticalsTable121MouseIDswithDuplicateTimepoints.png)
 
-  &emsp; |&rarr; [./images/PymaceuticalsTable122AllMouseIDswithDuplicateTimepointsRecords.png](./images/PymaceuticalsTable122AllMouseIDswithDuplicateTimepointsRecords.png)
+  &emsp; |&rarr; [./images/pymaceuticalsTable122AllMouseIDswithDuplicateTimepointsRecords.png](./images/pymaceuticalsTable122AllMouseIDswithDuplicateTimepointsRecords.png)
 
-  &emsp; |&rarr; [./images/PymaceuticalsTable221SummaryStatisticsTumorVolume.png](./images/PymaceuticalsTable221SummaryStatisticsTumorVolume.png)
+  &emsp; |&rarr; [./images/pymaceuticalsTable221SummaryStatisticsTumorVolume.png](./images/pymaceuticalsTable221SummaryStatisticsTumorVolume.png)
 
-  &emsp; |&rarr; [./images/PymaceuticalsTable421TumorVolumeStatisticsforCAPOMULIN.png](./images/PymaceuticalsTable421TumorVolumeStatisticsforCAPOMULIN.png)
+  &emsp; |&rarr; [./images/pymaceuticalsTable421TumorVolumeStatisticsforCAPOMULIN.png](./images/pymaceuticalsTable421TumorVolumeStatisticsforCAPOMULIN.png)
 
-  &emsp; |&rarr; [./images/PymaceuticalsTable422TumorVolumeStatisticsforCEFTAMIN.png](./images/PymaceuticalsTable422TumorVolumeStatisticsforCEFTAMIN.png)
+  &emsp; |&rarr; [./images/pymaceuticalsTable422TumorVolumeStatisticsforCEFTAMIN.png](./images/pymaceuticalsTable422TumorVolumeStatisticsforCEFTAMIN.png)
 
-  &emsp; |&rarr; [./images/PymaceuticalsTable423TumorVolumeStatisticsforINFUBINOL.png](./images/PymaceuticalsTable423TumorVolumeStatisticsforINFUBINOL.png)
+  &emsp; |&rarr; [./images/pymaceuticalsTable423TumorVolumeStatisticsforINFUBINOL.png](./images/pymaceuticalsTable423TumorVolumeStatisticsforINFUBINOL.png)
 
-  &emsp; |&rarr; [./images/PymaceuticalsTable424TumorVolumeStatisticsforKETAPRIL.png](./images/PymaceuticalsTable424TumorVolumeStatisticsforKETAPRIL.png)
+  &emsp; |&rarr; [./images/pymaceuticalsTable424TumorVolumeStatisticsforKETAPRIL.png](./images/pymaceuticalsTable424TumorVolumeStatisticsforKETAPRIL.png)
 
-  &emsp; |&rarr; [./images/PymaceuticalsTable425TumorVolumeStatisticsforNAFTISOL.png](./images/PymaceuticalsTable425TumorVolumeStatisticsforNAFTISOL.png)
+  &emsp; |&rarr; [./images/pymaceuticalsTable425TumorVolumeStatisticsforNAFTISOL.png](./images/pymaceuticalsTable425TumorVolumeStatisticsforNAFTISOL.png)
 
-  &emsp; |&rarr; [./images/PymaceuticalsTable426TumorVolumeStatisticsforPLACEBO.png](./images/PymaceuticalsTable426TumorVolumeStatisticsforPLACEBO.png)
+  &emsp; |&rarr; [./images/pymaceuticalsTable426TumorVolumeStatisticsforPLACEBO.png](./images/pymaceuticalsTable426TumorVolumeStatisticsforPLACEBO.png)
 
-  &emsp; |&rarr; [./images/PymaceuticalsTable427TumorVolumeStatisticsforPROPRIVA.png](./images/PymaceuticalsTable427TumorVolumeStatisticsforPROPRIVA.png)
+  &emsp; |&rarr; [./images/pymaceuticalsTable427TumorVolumeStatisticsforPROPRIVA.png](./images/pymaceuticalsTable427TumorVolumeStatisticsforPROPRIVA.png)
 
-  &emsp; |&rarr; [./images/PymaceuticalsTable428TumorVolumeStatisticsforRAMICANE.png](./images/PymaceuticalsTable428TumorVolumeStatisticsforRAMICANE.png)
+  &emsp; |&rarr; [./images/pymaceuticalsTable428TumorVolumeStatisticsforRAMICANE.png](./images/pymaceuticalsTable428TumorVolumeStatisticsforRAMICANE.png)
 
-  &emsp; |&rarr; [./images/PymaceuticalsTable429TumorVolumeStatisticsforSTELASYN.png](./images/PymaceuticalsTable429TumorVolumeStatisticsforSTELASYN.png)
+  &emsp; |&rarr; [./images/pymaceuticalsTable429TumorVolumeStatisticsforSTELASYN.png](./images/pymaceuticalsTable429TumorVolumeStatisticsforSTELASYN.png)
 
-  &emsp; |&rarr; [./images/PymaceuticalsTable521LastGreatestTimepointStatisticsforCAPOMULIN.png](./images/PymaceuticalsTable521LastGreatestTimepointStatisticsforCAPOMULIN.png)
+  &emsp; |&rarr; [./images/pymaceuticalsTable521LastGreatestTimepointStatisticsforCAPOMULIN.png](./images/pymaceuticalsTable521LastGreatestTimepointStatisticsforCAPOMULIN.png)
 
-  &emsp; |&rarr; [./images/PymaceuticalsTable522LastGreatestTimepointStatisticsforCEFTAMIN.png](./images/PymaceuticalsTable522LastGreatestTimepointStatisticsforCEFTAMIN.png)
+  &emsp; |&rarr; [./images/pymaceuticalsTable522LastGreatestTimepointStatisticsforCEFTAMIN.png](./images/pymaceuticalsTable522LastGreatestTimepointStatisticsforCEFTAMIN.png)
 
-  &emsp; |&rarr; [./images/PymaceuticalsTable523LastGreatestTimepointStatisticsforINFUBINOL.png](./images/PymaceuticalsTable523LastGreatestTimepointStatisticsforINFUBINOL.png)
+  &emsp; |&rarr; [./images/pymaceuticalsTable523LastGreatestTimepointStatisticsforINFUBINOL.png](./images/pymaceuticalsTable523LastGreatestTimepointStatisticsforINFUBINOL.png)
 
-  &emsp; |&rarr; [./images/PymaceuticalsTable524LastGreatestTimepointStatisticsforKETAPRIL.png](./images/PymaceuticalsTable524LastGreatestTimepointStatisticsforKETAPRIL.png)
+  &emsp; |&rarr; [./images/pymaceuticalsTable524LastGreatestTimepointStatisticsforKETAPRIL.png](./images/pymaceuticalsTable524LastGreatestTimepointStatisticsforKETAPRIL.png)
 
-  &emsp; |&rarr; [./images/PymaceuticalsTable525LastGreatestTimepointStatisticsforNAFTISOL.png](./images/PymaceuticalsTable525LastGreatestTimepointStatisticsforNAFTISOL.png)
+  &emsp; |&rarr; [./images/pymaceuticalsTable525LastGreatestTimepointStatisticsforNAFTISOL.png](./images/pymaceuticalsTable525LastGreatestTimepointStatisticsforNAFTISOL.png)
 
-  &emsp; |&rarr; [./images/PymaceuticalsTable526LastGreatestTimepointStatisticsforPLACEBO.png](./images/PymaceuticalsTable526LastGreatestTimepointStatisticsforPLACEBO.png)
+  &emsp; |&rarr; [./images/pymaceuticalsTable526LastGreatestTimepointStatisticsforPLACEBO.png](./images/pymaceuticalsTable526LastGreatestTimepointStatisticsforPLACEBO.png)
 
-  &emsp; |&rarr; [./images/PymaceuticalsTable527LastGreatestTimepointStatisticsforPROPRIVA.png](./images/PymaceuticalsTable527LastGreatestTimepointStatisticsforPROPRIVA.png)
+  &emsp; |&rarr; [./images/pymaceuticalsTable527LastGreatestTimepointStatisticsforPROPRIVA.png](./images/pymaceuticalsTable527LastGreatestTimepointStatisticsforPROPRIVA.png)
 
-  &emsp; |&rarr; [./images/PymaceuticalsTable528LastGreatestTimepointStatisticsforRAMICANE.png](./images/PymaceuticalsTable528LastGreatestTimepointStatisticsforRAMICANE.png)
+  &emsp; |&rarr; [./images/pymaceuticalsTable528LastGreatestTimepointStatisticsforRAMICANE.png](./images/pymaceuticalsTable528LastGreatestTimepointStatisticsforRAMICANE.png)
 
-  &emsp; |&rarr; [./images/PymaceuticalsTable529LastGreatestTimepointStatisticsforSTELASYN.png](./images/PymaceuticalsTable529LastGreatestTimepointStatisticsforSTELASYN.png)
+  &emsp; |&rarr; [./images/pymaceuticalsTable529LastGreatestTimepointStatisticsforSTELASYN.png](./images/pymaceuticalsTable529LastGreatestTimepointStatisticsforSTELASYN.png)
 
-  &emsp; |&rarr; [./images/PymaceuticalsTable621InfubinolStatisticalOutlier.png](./images/PymaceuticalsTable621InfubinolStatisticalOutlier.png)
+  &emsp; |&rarr; [./images/pymaceuticalsTable621InfubinolStatisticalOutlier.png](./images/pymaceuticalsTable621InfubinolStatisticalOutlier.png)
 
-  &emsp; |&rarr; [./images/PymaceuticalsTable622StatisticalOutlierMouseRecords.png](./images/PymaceuticalsTable622StatisticalOutlierMouseRecords.png)
+  &emsp; |&rarr; [./images/pymaceuticalsTable622StatisticalOutlierMouseRecords.png](./images/pymaceuticalsTable622StatisticalOutlierMouseRecords.png)
 
-  &emsp; |&rarr; [./images/PymaceuticalsTable641MouseIDbyNumberofDataPoints.png](./images/PymaceuticalsTable641MouseIDbyNumberofDataPoints.png)
+  &emsp; |&rarr; [./images/pymaceuticalsTable641MouseIDbyNumberofDataPoints.png](./images/pymaceuticalsTable641MouseIDbyNumberofDataPoints.png)
 
-  &emsp; |&rarr; [./images/PymaceuticalsTable642DrugTreatmentRegimenbyDataPointCategoryNumberofMice.png](./images/PymaceuticalsTable642DrugTreatmentRegimenbyDataPointCategoryNumberofMice.png)
+  &emsp; |&rarr; [./images/pymaceuticalsTable642DrugTreatmentRegimenbyDataPointCategoryNumberofMice.png](./images/pymaceuticalsTable642DrugTreatmentRegimenbyDataPointCategoryNumberofMice.png)
 
-  &emsp; |&rarr; [./images/PymaceuticalsTable740MouseIDbyDrugRegimenandWeight.png](./images/PymaceuticalsTable740MouseIDbyDrugRegimenandWeight.png)
+  &emsp; |&rarr; [./images/pymaceuticalsTable740MouseIDbyDrugRegimenandWeight.png](./images/pymaceuticalsTable740MouseIDbyDrugRegimenandWeight.png)
 
-  &emsp; |&rarr; [./images/PymaceuticalsTable741MouseWeightStatisticsforCAPOMULIN.png](./images/PymaceuticalsTable741MouseWeightStatisticsforCAPOMULIN.png)
+  &emsp; |&rarr; [./images/pymaceuticalsTable741MouseWeightStatisticsforCAPOMULIN.png](./images/pymaceuticalsTable741MouseWeightStatisticsforCAPOMULIN.png)
 
-  &emsp; |&rarr; [./images/PymaceuticalsTable742MouseWeightStatisticsforCEFTAMIN.png](./images/PymaceuticalsTable742MouseWeightStatisticsforCEFTAMIN.png)
+  &emsp; |&rarr; [./images/pymaceuticalsTable742MouseWeightStatisticsforCEFTAMIN.png](./images/pymaceuticalsTable742MouseWeightStatisticsforCEFTAMIN.png)
 
-  &emsp; |&rarr; [./images/PymaceuticalsTable743MouseWeightStatisticsforINFUBINOL.png](./images/PymaceuticalsTable743MouseWeightStatisticsforINFUBINOL.png)
+  &emsp; |&rarr; [./images/pymaceuticalsTable743MouseWeightStatisticsforINFUBINOL.png](./images/pymaceuticalsTable743MouseWeightStatisticsforINFUBINOL.png)
 
-  &emsp; |&rarr; [./images/PymaceuticalsTable744MouseWeightStatisticsforKETAPRIL.png](./images/PymaceuticalsTable744MouseWeightStatisticsforKETAPRIL.png)
+  &emsp; |&rarr; [./images/pymaceuticalsTable744MouseWeightStatisticsforKETAPRIL.png](./images/pymaceuticalsTable744MouseWeightStatisticsforKETAPRIL.png)
 
-  &emsp; |&rarr; [./images/PymaceuticalsTable745MouseWeightStatisticsforNAFTISOL.png](./images/PymaceuticalsTable745MouseWeightStatisticsforNAFTISOL.png)
+  &emsp; |&rarr; [./images/pymaceuticalsTable745MouseWeightStatisticsforNAFTISOL.png](./images/pymaceuticalsTable745MouseWeightStatisticsforNAFTISOL.png)
 
-  &emsp; |&rarr; [./images/PymaceuticalsTable746MouseWeightStatisticsforPLACEBO.png](./images/PymaceuticalsTable746MouseWeightStatisticsforPLACEBO.png)
+  &emsp; |&rarr; [./images/pymaceuticalsTable746MouseWeightStatisticsforPLACEBO.png](./images/pymaceuticalsTable746MouseWeightStatisticsforPLACEBO.png)
 
-  &emsp; |&rarr; [./images/PymaceuticalsTable747MouseWeightStatisticsforPROPRIVA.png](./images/PymaceuticalsTable747MouseWeightStatisticsforPROPRIVA.png)
+  &emsp; |&rarr; [./images/pymaceuticalsTable747MouseWeightStatisticsforPROPRIVA.png](./images/pymaceuticalsTable747MouseWeightStatisticsforPROPRIVA.png)
 
-  &emsp; |&rarr; [./images/PymaceuticalsTable748MouseWeightStatisticsforRAMICANE.png](./images/PymaceuticalsTable748MouseWeightStatisticsforRAMICANE.png)
+  &emsp; |&rarr; [./images/pymaceuticalsTable748MouseWeightStatisticsforRAMICANE.png](./images/pymaceuticalsTable748MouseWeightStatisticsforRAMICANE.png)
 
-  &emsp; |&rarr; [./images/PymaceuticalsTable749MouseWeightStatisticsforSTELASYN.png](./images/PymaceuticalsTable749MouseWeightStatisticsforSTELASYN.png)
+  &emsp; |&rarr; [./images/pymaceuticalsTable749MouseWeightStatisticsforSTELASYN.png](./images/pymaceuticalsTable749MouseWeightStatisticsforSTELASYN.png)
 
-  &emsp; |&rarr; [./images/PymaceuticalsTable811MouseGenderCountDistributionbyDrugRegimen.png](./images/PymaceuticalsTable811MouseGenderCountDistributionbyDrugRegimen.png)
+  &emsp; |&rarr; [./images/pymaceuticalsTable811MouseGenderCountDistributionbyDrugRegimen.png](./images/pymaceuticalsTable811MouseGenderCountDistributionbyDrugRegimen.png)
 
-  &emsp; |&rarr; [./images/PymaceuticalsTable812MouseGenderPercentDistributionbyDrugRegimen.png](./images/PymaceuticalsTable812MouseGenderPercentDistributionbyDrugRegimen.png)
+  &emsp; |&rarr; [./images/pymaceuticalsTable812MouseGenderPercentDistributionbyDrugRegimen.png](./images/pymaceuticalsTable812MouseGenderPercentDistributionbyDrugRegimen.png)
 
-  &emsp; |&rarr; [./images/PymaceuticalsTable4210TumorVolumeStatisticsforZoniferol.png](./images/PymaceuticalsTable4210TumorVolumeStatisticsforZoniferol.png)
+  &emsp; |&rarr; [./images/pymaceuticalsTable4210TumorVolumeStatisticsforZoniferol.png](./images/pymaceuticalsTable4210TumorVolumeStatisticsforZoniferol.png)
 
-  &emsp; |&rarr; [./images/PymaceuticalsTable5210LastGreatestTimepointStatisticsforZoniferol.png](./images/PymaceuticalsTable5210LastGreatestTimepointStatisticsforZoniferol.png)
+  &emsp; |&rarr; [./images/pymaceuticalsTable5210LastGreatestTimepointStatisticsforZoniferol.png](./images/pymaceuticalsTable5210LastGreatestTimepointStatisticsforZoniferol.png)
 
-  &emsp; |&rarr; [./images/PymaceuticalsTable7410MouseWeightStatisticsforZoniferol.png](./images/PymaceuticalsTable7410MouseWeightStatisticsforZoniferol.png)
+  &emsp; |&rarr; [./images/pymaceuticalsTable7410MouseWeightStatisticsforZoniferol.png](./images/pymaceuticalsTable7410MouseWeightStatisticsforZoniferol.png)
 
   &emsp; |&rarr; [./images/README.md](./images/README.md)
 
 |&rarr; [./logs/](./logs/)
 
-  &emsp; |&rarr; [./logs/20240321pymaceuticals_log.txt](./logs/20231107PymaceuticalsDebug.txt)
+  &emsp; |&rarr; [./logs/20240321pymaceuticals_log.txt](./logs/20231107pymaceuticalsDebug.txt)
 
   &emsp; |&rarr; [./logs/README.md](./logs/README.md)
 

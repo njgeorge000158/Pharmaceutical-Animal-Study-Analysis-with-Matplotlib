@@ -1,4 +1,4 @@
-![ImmuPharma](https://github.com/njgeorge000158/Pharmaceutical-Animal-Study-Analysis-with-Matplotlib/assets/137228821/1aef078e-1ebc-4d1d-a4b1-48a677cc4afd)
+![pymaceuticals](https://github.com/njgeorge000158/Pharmaceutical-Animal-Study-Analysis-with-Matplotlib/assets/137228821/8ad2eb50-bc3b-48ce-97c3-0ccfc2d51c17)
 
 ----
 

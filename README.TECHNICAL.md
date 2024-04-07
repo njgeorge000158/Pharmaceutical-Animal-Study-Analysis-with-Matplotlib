@@ -32,8 +32,6 @@ python3 -m pip install dataframe-image
 
 The IPython notebook, pymaceuticals.ipynb, uses the CSV files, mouse_study_data.csv and .csv, as input and will not run without them.  The interactive Python notebook must have the following Python scripts in the same folder with it:
 
-error_handle_functions.py
-
 log_constants.py
 
 log_functions.py
@@ -87,8 +85,6 @@ Jupyter Notebook, Matplotlib, Numpy, Pandas, Python 3.11.4
 ----
 
 #### main branch 
-
-|&rarr; [./error_handle_functions.py](./error_handle_functions.py)
 
 |&rarr; [./log_constants.py](./log_constants.py)
 

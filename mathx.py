@@ -166,7 +166,7 @@ def return_equation_as_string \
                 
             temp_string = temp_string + 'x'
           
-        if degree_integer == len(model_equation_lis):
+        if degree_integer == len(model_equation_list):
             
             equation_string = temp_string
             

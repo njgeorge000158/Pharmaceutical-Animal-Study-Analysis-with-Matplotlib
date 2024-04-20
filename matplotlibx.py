@@ -37,6 +37,8 @@
 import logx
 import mathx
 
+import math
+
 import matplotlib.pyplot as plt
 import pandas as pd
 
@@ -107,10 +109,11 @@ def display_linear_regression_line \
          fontsize_float = 16.0,
          fontweight_string = 'bold',
          fontcolor_string = 'blue'):
-    
-    (slope, intercept, rvalue, pvalue, stderr) = stats.linregress(x_series, y_series)
 
+    (slope, intercept, rvalue, pvalue, stderr) = stats.linregress(x_series, y_series)
+            
     linear_regression_series = (x_series * slope) + intercept
+            
         
     plt.plot \
         (x_series,
@@ -995,9 +998,9 @@ def display_scatter_plot_from_xy_series \
                 
         display_polynomial_regression_line \
             (x_series, y_series,
-             degree_integer,
              equation_x_coordinate_float,
-             equation_y_coordinate_float)
+             equation_y_coordinate_float,
+             degree_integer)
 
         
     logx.save_plot_image(caption_string)
@@ -1208,9 +1211,9 @@ def display_multiple_scatter_plots_from_xy_series_list \
             display_polynomial_regression_line \
                 (x_series_list[index],
                  y_series_list[index],
-                 degree_integer,
                  equation_x_coordinate_float_list[index],
-                 equation_y_coordinate_float_list[index])
+                 equation_y_coordinate_float_list[index],
+                 degree_integer)
 
         plt.tight_layout(pad = tight_layout_pad_float)
     

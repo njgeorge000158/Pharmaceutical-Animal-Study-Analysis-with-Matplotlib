@@ -23,7 +23,7 @@
  #******************************************************************************************/
 
 import logx
-import pandas_processx
+import pandasx
 
 import dataframe_image
 
@@ -74,7 +74,7 @@ def display_tumor_volume_statistics \
     for index, regimen in enumerate(regimen_string_list):
             
         statistics_dataframe \
-            = pandas_processx.return_summary_statistics_as_dataframe \
+            = pandasx.return_summary_statistics_as_dataframe \
                 (tumor_volume_series_list[index])
             
         caption_string \
@@ -85,7 +85,7 @@ def display_tumor_volume_statistics \
               + f' Statistics for {regimen}'
             
         current_styler_object \
-            = pandas_processx.return_standard_format_styler \
+            = pandasx.return_standard_format_styler \
                 (statistics_dataframe, caption_string)
         
         current_styler_object \

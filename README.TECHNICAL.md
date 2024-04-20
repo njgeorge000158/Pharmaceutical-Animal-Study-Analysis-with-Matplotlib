@@ -40,7 +40,7 @@ mathx.py
 
 matplotlibx.py
 
-pandas_processx.py
+pandasx.py
 
 pymaceuticalsx.py
 
@@ -92,11 +92,11 @@ Jupyter Notebook, Matplotlib, Numpy, Pandas, Python 3.11.4
 
 |&rarr; [./matplotlibx.py](./matplotlibx.py)
 
-|&rarr; [./pandas_processx.py](./pandas_processx.py)
-
-|&rarr; [./pymaceuticalsx.py](./pymaceuticalsx.py)
+|&rarr; [./pandasx.py](./pandasx.py)
 
 |&rarr; [./pymaceuticals.ipynb](./pymaceuticals.ipynb)
+
+|&rarr; [./pymaceuticalsx.py](./pymaceuticalsx.py)
 
 |&rarr; [./README.TECHNICAL.md](./README.TECHNICAL.md)
 

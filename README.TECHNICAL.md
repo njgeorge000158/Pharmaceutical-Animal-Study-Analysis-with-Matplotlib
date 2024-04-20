@@ -32,19 +32,17 @@ python3 -m pip install dataframe-image
 
 The IPython notebook, pymaceuticals.ipynb, uses the CSV files, mouse_study_data.csv and .csv, as input and will not run without them.  The interactive Python notebook must have the following Python scripts in the same folder with it:
 
-log_constants.py
+logx_constants.py
 
-log_functions.py
+logx.py
 
-log_subroutines.py
+mathx.py
 
-mathx_functions.py
+matplotlibx.py
 
-matplotlibx_subroutines.py
+pandas_processx.py
 
-pandas_process_functions.py
-
-pymaceuticals_subroutines.py
+pymaceuticalsx.py
 
 If the folders, logs and images, are not present, the IPython notebook will create them.  The folder, resources, holds input files for the IPython Notebook; the folder, logs, contains log files from testing the IPython Notebook; and the folder, images, has the PNG image files of the IPython Notebook's tables and plots.
 
@@ -58,7 +56,7 @@ To place the IPython notebook in Log Mode or Image Mode set the parameter for th
 
 #### Source code
 
-pymaceuticals.ipynb, error_handle_functions.py, log_constants.py, log_functions.py, log_subroutines.py, mathx_functions.py, matplotlibx_subroutines.py, pandas_process_functions.py, pymaceuticals_subroutines.py
+pymaceuticals.ipynb, logx_constants.py, logx.py, mathx.py, matplotlibx.py, pandas_processx.py, pymaceuticalsx.py
 
 #### Input files
 
@@ -86,19 +84,17 @@ Jupyter Notebook, Matplotlib, Numpy, Pandas, Python 3.11.4
 
 #### main branch 
 
-|&rarr; [./log_constants.py](./log_constants.py)
+|&rarr; [./logx_constants.py](./logx_constants.py)
 
-|&rarr; [./log_functions.py](./log_functions.py)
+|&rarr; [./logx.py](./logx.py)
 
-|&rarr; [./log_subroutines.py](./log_subroutines.py)
+|&rarr; [./mathx.py](./mathx.py)
 
-|&rarr; [./mathx_functions.py](./mathx_functions.py)
+|&rarr; [./matplotlibx.py](./matplotlibx.py)
 
-|&rarr; [./matplotlibx_subroutines.py](./matplotlibx_subroutines.py)
+|&rarr; [./pandas_processx.py](./pandas_processx.py)
 
-|&rarr; [./pandas_process_functions.py](./pandas_process_functions.py)
-
-|&rarr; [./pymaceuticals_subroutines.py](./pymaceuticals_subroutines.py)
+|&rarr; [./pymaceuticalsx.py](./pymaceuticalsx.py)
 
 |&rarr; [./pymaceuticals.ipynb](./pymaceuticals.ipynb)
 
@@ -293,7 +289,7 @@ Jupyter Notebook, Matplotlib, Numpy, Pandas, Python 3.11.4
 
 |&rarr; [./logs/](./logs/)
 
-  &emsp; |&rarr; [./logs/20240321pymaceuticals_log.txt](./logs/20231107pymaceuticalsDebug.txt)
+  &emsp; |&rarr; [./logs/20240419pymaceuticals_log.txt](./logs/20240419pymaceuticals_log.txt)
 
   &emsp; |&rarr; [./logs/README.md](./logs/README.md)
 

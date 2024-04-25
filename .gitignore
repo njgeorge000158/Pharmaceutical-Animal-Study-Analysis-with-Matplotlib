@@ -8,6 +8,9 @@ __pycache__/
 
 logx_constants.py
 logx.py
+mathx.py
+matplotlibx.py
+pandasx.py
 
 # Distribution / packaging
 .Python

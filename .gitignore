@@ -10,7 +10,9 @@ logx_constants.py
 logx.py
 mathx.py
 matplotlibx.py
+pandasx_constants.py
 pandasx.py
+timex.py
 
 # Distribution / packaging
 .Python

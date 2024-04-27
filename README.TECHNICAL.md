@@ -40,7 +40,11 @@ mathx.py
 
 matplotlibx.py
 
+pandasx_constants.py
+
 pandasx.py
+
+timex.py
 
 pymaceuticalsx.py
 
@@ -56,7 +60,7 @@ To place the IPython notebook in Log Mode or Image Mode set the parameter for th
 
 #### Source code
 
-pymaceuticals.ipynb, logx_constants.py, logx.py, mathx.py, matplotlibx.py, pandas_processx.py, pymaceuticalsx.py
+pymaceuticals.ipynb, logx_constants.py, logx.py, mathx.py, matplotlibx.py, pandasx_constants.py, pandasx.py, timex.py, pymaceuticalsx.py
 
 #### Input files
 

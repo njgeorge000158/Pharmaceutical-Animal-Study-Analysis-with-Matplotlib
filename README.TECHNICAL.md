@@ -84,16 +84,6 @@ Jupyter Notebook, Matplotlib, Numpy, Pandas, Python 3.11.4
 
 #### main branch 
 
-|&rarr; [./logx_constants.py](./logx_constants.py)
-
-|&rarr; [./logx.py](./logx.py)
-
-|&rarr; [./mathx.py](./mathx.py)
-
-|&rarr; [./matplotlibx.py](./matplotlibx.py)
-
-|&rarr; [./pandasx.py](./pandasx.py)
-
 |&rarr; [./pymaceuticals.ipynb](./pymaceuticals.ipynb)
 
 |&rarr; [./pymaceuticalsx.py](./pymaceuticalsx.py)

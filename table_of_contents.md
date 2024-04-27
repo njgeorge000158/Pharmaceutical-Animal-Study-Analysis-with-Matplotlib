@@ -1,4 +1,4 @@
-# Pharmaceutical Animal Study Analysis with Matplotlib
+# Pharmaceutical-Animal-Study-Analysis-with-Matplotlib
 
 ----
 
@@ -16,7 +16,7 @@
 
 >> ### **Display Merged DataFrame**
 
-> ## <br>  **Section 1.2: Mouse IDs with Duplicate Timepoints**
+> ## <br>  **Section 1.2: Remove Mouse IDs with Duplicate Timepoints**
 
 >> ### **Display the Number of Unique Mouse IDs**
 

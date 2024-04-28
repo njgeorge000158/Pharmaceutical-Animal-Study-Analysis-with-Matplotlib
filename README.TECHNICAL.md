@@ -32,15 +32,11 @@ python3 -m pip install dataframe-image
 
 The IPython notebook, pymaceuticals.ipynb, uses the CSV files, mouse_study_data.csv and .csv, as input and will not run without them.  The interactive Python notebook must have the following Python scripts in the same folder with it:
 
-logx_constants.py
-
 logx.py
 
 mathx.py
 
 matplotlibx.py
-
-pandasx_constants.py
 
 pandasx.py
 
@@ -60,7 +56,7 @@ To place the IPython notebook in Log Mode or Image Mode set the parameter for th
 
 #### Source code
 
-pymaceuticals.ipynb, logx_constants.py, logx.py, mathx.py, matplotlibx.py, pandasx_constants.py, pandasx.py, timex.py, pymaceuticalsx.py
+pymaceuticals.ipynb, logx.py, mathx.py, matplotlibx.py, pandasx.py, timex.py, pymaceuticalsx.py
 
 #### Input files
 

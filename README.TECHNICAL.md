@@ -6,7 +6,7 @@
 
 ----
 
-If the computer has Anaconda, Jupyter Notebook, and a recent version of Python, the IPython notebook already has the following dependencies installed: datetime, io, json, matplotlib, numpy, pandas, pathlib, os, pandas, requests, requests_html, and scipy.
+If the computer has Anaconda, Jupyter Notebook, and a recent version of Python, the Jupyter Notebook already has the following dependencies installed: datetime, io, json, matplotlib, numpy, pandas, pathlib, os, pandas, requests, requests_html, and scipy.
 
 In addition to those modules, the Jupyter Notebook requires the following to execute: holoviews, hvplot, geoviews, geopy, aspose-words, dataframe-image.
 
@@ -30,7 +30,7 @@ pip3 install -U dataframe-image
 
 ----
 
-The IPython notebook, pymaceuticals.ipynb, uses the CSV files, mouse_study_data.csv and mouse_study_results.csv, as input and will not run without them.  The interactive Python notebook must have the following Python scripts in the same folder with it:
+The Jupyter Notebook, pymaceuticals.ipynb, uses the CSV files, mouse_study_data.csv and mouse_study_results.csv, as input and will not run without them.  The interactive Python notebook must have the following Python scripts in the same folder with it:
 
 logx.py
 
@@ -44,9 +44,9 @@ timex.py
 
 pymaceuticalsx.py
 
-If the folders, logs and images, are not present, the IPython notebook will create them.  The folder, resources, holds input files for the IPython Notebook; the folder, logs, contains log files from testing the IPython Notebook; and the folder, images, has the PNG image files of the IPython Notebook's tables and plots.
+If the folders, logs and images, are not present, the Jupyter Notebook will create them.  The folder, resources, holds input files for the Jupyter Notebook; the folder, logs, contains log files from testing the Jupyter Notebook; and the folder, images, has the PNG image files of the Jupyter Notebook's tables and plots.
 
-To place the IPython notebook in Log Mode or Image Mode set the parameter for the appropriate subroutine in coding cell #2 to True. In Log Mode, the notebook writes that information to the log file in the folder, logs. If the program is in Image Mode, it writes all DataFrames, hvplot maps, and matplotlib plots to PNG files to the folder, images.
+To place the Jupyter Notebook in Log Mode or Image Mode set the parameter for the appropriate subroutine in coding cell #2 to True. In Log Mode, the notebook writes that information to the log file in the folder, logs. If the program is in Image Mode, it writes all DataFrames, hvplot maps, and matplotlib plots to PNG files to the folder, images.
 
 ----
 
@@ -84,6 +84,14 @@ Jupyter Notebook, Matplotlib, Numpy, Pandas, Python 3.11.5
 
 #### main branch 
 
+|&rarr; [./logx.py](./logx.py)
+
+|&rarr; [./mathx.py](./mathx.py)
+
+|&rarr; [./matplotlibx.py](./matplotlibx.py)
+
+|&rarr; [./pandasx.py](./pandasx.py)
+
 |&rarr; [./pymaceuticals.ipynb](./pymaceuticals.ipynb)
 
 |&rarr; [./pymaceuticalsx.py](./pymaceuticalsx.py)
@@ -93,6 +101,8 @@ Jupyter Notebook, Matplotlib, Numpy, Pandas, Python 3.11.5
 |&rarr; [./README.md](./README.md)
 
 |&rarr; [./table_of_contents.md](./table_of_contents.md)
+
+|&rarr; [./timex.py](./timex.py)
 
 |&rarr; [./images/](./images/)
 

@@ -9,9 +9,8 @@
  #  File Name:  pymaceuticalsx.py
  #
  #  File Description:
- #      This Python script, pymaceuticalsx.py, contains generic 
- #      Python subroutines for completing common tasks in the Pymaceuticals
- #      animal study.  Here is the list:
+ #      This Python script, pymaceuticalsx.py, contains generic Python subroutines 
+ #      for completing common tasks in the Pymaceuticals animal study.  Here is the list:
  #
  #      display_tumor_volume_statistics
  #
@@ -70,29 +69,29 @@ def display_tumor_volume_statistics \
          regimen_string_list,
          section_name_string,
          type_string):
-    
+
     for index, regimen in enumerate(regimen_string_list):
-            
+
         statistics_dataframe \
             = pandasx.return_summary_statistics_as_dataframe \
                 (tumor_volume_series_list[index])
-            
+
         caption_string \
             = 'Table ' \
               + section_name_string \
               + f'.{index+1}: ' \
               + type_string \
               + f' Statistics for {regimen}'
-            
+
         current_styler_object \
             = pandasx.return_standard_format_styler \
                 (statistics_dataframe, caption_string)
-        
+
         current_styler_object \
-            = logx.save_png_return_styler \
+            = pandasx.save_image_and_return_styler \
                 (current_styler_object, caption_string)
 
-        
+
         display(current_styler_object)
 
 

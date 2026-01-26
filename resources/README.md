@@ -1,4 +1,4 @@
-This folder contains the input files for the IPython notebook, pymaceuticals.ipynb.
+This folder contains the input files for the Jupyter Notebook, pymaceuticals.ipynb.
 
 ----
 

@@ -20,7 +20,7 @@ pip3 install -U geoviews
 
 pip3 install -U geopy
 
-pip3 install -U scipyn
+pip3 install -U scipy
 
 pip3 install -U aspose-words
 

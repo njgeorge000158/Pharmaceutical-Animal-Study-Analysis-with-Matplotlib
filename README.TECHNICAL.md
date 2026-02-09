@@ -46,8 +46,6 @@ pandasx.py
 
 timex.py
 
-pymaceuticalsx.py
-
 If the folders, logs and images, are not present, the Jupyter Notebook will create them.  The folder, resources, holds input files for the Jupyter Notebook; the folder, logs, contains log files from testing the Jupyter Notebook; and the folder, images, has the PNG image files of the Jupyter Notebook's tables and plots.
 
 To place the Jupyter Notebook in Log Mode or Image Mode set the parameter for the appropriate subroutine in coding cell #2 to True. In Log Mode, the notebook writes that information to the log file in the folder, logs. If the program is in Image Mode, it writes all DataFrames, hvplot maps, and matplotlib plots to PNG files to the folder, images.

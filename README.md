@@ -6,7 +6,7 @@
 
 ----
 
-Over the course of 45 days, this study analyzes the effects of a placebo and nine drug treatment regimens on the tumor development of 248 mice suffering from a commonly occurring form of skin cancer, squamous cell carcinoma (SCC).  From the initial results, the most promising treatments include Ceftamin, Infubinol, Ramicane, and this company’s drug of interest, Capomulin.  The study’s ultimate purpose is to compare the performance of Capomulin against the other drug candidates.
+Over the course of 45 days, this study analyzes the effects of a placebo and nine drug treatment regimens on the tumor development of 248 mice suffering from a commonly occurring form of skin cancer, squamous cell carcinoma (SCC).  From the initial results, the most promising treatments include Ceftamin, Infubinol, Ramicane, and this company’s drug of interest, Capomulin.  The study’s purpose is to compare the performance of Capomulin against the other drug candidates.
 
 <img width="1108" alt="4_2_1_tumor_volume_by_drug_regimen" src="https://github.com/njgeorge000158/Pharmaceutical-Animal-Study-Analysis-with-Matplotlib/assets/137228821/c0c6add1-413c-4efc-88a4-6fb00e01fee7">
 

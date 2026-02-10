@@ -34,7 +34,7 @@ pip3 install -U selenium
 
 ----
 
-The Jupyter Notebook, pymaceuticals.ipynb, uses the CSV files, mouse_study_data.csv and mouse_study_results.csv, as input and will not run without them.  The interactive Python notebook must have the following Python scripts in the same folder with it:
+The Jupyter Notebook, pymaceuticals.ipynb, uses the CSV files, mouse_study_data.csv and mouse_study_results.csv, as input and will not run without them.  The Jupyter Notebook must have the following Python scripts in the same folder with it:
 
 logx.py
 
@@ -58,7 +58,7 @@ To place the Jupyter Notebook in Log Mode or Image Mode set the parameter for th
 
 #### Source code
 
-pymaceuticals.ipynb, logx.py, mathx.py, matplotlibx.py, pandasx.py, timex.py, pymaceuticalsx.py
+pymaceuticals.ipynb, logx.py, mathx.py, matplotlibx.py, pandasx.py, timex.py
 
 #### Input files
 

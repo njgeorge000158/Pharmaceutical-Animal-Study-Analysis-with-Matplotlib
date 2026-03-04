@@ -33,7 +33,8 @@
  #
  #  get_regr_line_dict
  #  set_regr_line_dict
- #
+ #  get_regr_degree
+ #  set_regr_degree
  #  get_regr_eqn_coords
  #  set_regr_eqn_coords
  #
@@ -168,7 +169,10 @@ class chart_enum(Enum):
 
 
 regr_line_dict \
-    = {'linecolor': 'red',
+    = {'degree': 0,
+       'eqn_x_coord': 0.0,
+       'eqn_y_coord': 0.0,
+       'linecolor': 'red',
        'linewidth': 3.0,
        'alpha': 1.0,
        'coef_prec': 4,
@@ -513,10 +517,7 @@ plot_chart_dict \
 
 
 scatterplot_chart_dict \
-    = {'regr': {'degree': 0,
-                'eqn_x_coord': 0.0,
-                'eqn_y_coord': 0.0},
-       'marker': {'shape': 'o',
+    = {'marker': {'shape': 'o',
                   'size': 80.0,
                   'color': 'lime',
                   'linewidth': 1.5,
@@ -1393,6 +1394,90 @@ def set_regr_line_dict(upd_dict):
 
 #*******************************************************************************************
  #
+ #  Function Name:  get_regr_degree
+ #
+ #  Function Description:
+ #      The function retrieves the regression line degree.
+ #
+ #
+ #  Return Type: n/a
+ #
+ #
+ #  Function Parameters:
+ #
+ #  Type           Name             Description
+ #  ------------   --------------   --------------------------------------------------
+ #  n/a            n/a              n/a
+ #
+ #
+ #  Date                Description                                 Programmer
+ #  ---------------     ------------------------------------        ------------------
+ #  02/24/2026          Initial Development                         Nicholas J. George
+ #
+ #******************************************************************************************/
+
+def get_regr_degree():
+
+    return regr_line_dict['degree']
+
+
+# In[34]:
+
+
+#*******************************************************************************************
+ #
+ #  Function Name:  set_regr_degree
+ #
+ #  Function Description:
+ #      The function sets the regression line degree.
+ #
+ #
+ #  Return Type: n/a
+ #
+ #
+ #  Function Parameters:
+ #
+ #  Type           Name             Description
+ #  ------------   --------------   --------------------------------------------------
+ #  object         input_obj        The parameter is the input object.
+ #
+ #
+ #  Date                Description                                 Programmer
+ #  ---------------     ------------------------------------        ------------------
+ #  02/24/2026          Initial Development                         Nicholas J. George
+ #
+ #******************************************************************************************/
+
+def set_regr_degree(input_obj):
+
+    global regr_line_dict
+
+    if isinstance(input_obj, int) == True:
+
+        regr_line_dict['degree'] = [abs(input_obj)]
+
+    elif isinstance(input_obj, float) == True:
+
+        regr_line_dict['degree'] = [int(abs(input_obj))]
+
+    elif isinstance(input_obj, list) == True:
+
+        regr_line_dict['degree'] = np.array(input_obj)
+
+    elif isinstance(input_obj, np.ndarray) == True:
+
+        regr_line_dict['degree'] = input_obj
+
+    elif isinstance(input_obj, pd.Series) == True:
+
+        regr_line_dict['degree'] = input_obj.to_numpy()
+
+
+# In[35]:
+
+
+#*******************************************************************************************
+ #
  #  Function Name:  get_regr_line_dict
  #
  #  Function Description:
@@ -1417,12 +1502,10 @@ def set_regr_line_dict(upd_dict):
 
 def get_regr_eqn_coords():
 
-    return \
-        scatterplot_chart_dict['regr']['eqn_x_coord'], \
-        scatterplot_chart_dict['regr']['eqn_y_coord']
+    return regr_line_dict['eqn_x_coord'], regr_line_dict['eqn_y_coord']
 
 
-# In[34]:
+# In[36]:
 
 
 #*******************************************************************************************
@@ -1454,30 +1537,30 @@ def get_regr_eqn_coords():
 
 def set_regr_eqn_coords(x_crd_obj, y_crd_obj):
 
-    global scatterplot_chart_dict
+    global regr_line_dict
 
 
     if isinstance(x_crd_obj, int) == True \
         or isinstance(x_crd_obj, float) == True:
 
-        scatterplot_chart_dict['regr']['eqn_x_coord'] = [x_crd_obj]
+        regr_line_dict['eqn_x_coord'] = [x_crd_obj]
 
     elif isinstance(x_crd_obj, list) == True:
 
-        scatterplot_chart_dict['regr']['eqn_x_coord'] = x_crd_obj
+        regr_line_dict['eqn_x_coord'] = x_crd_obj
 
 
     if isinstance(y_crd_obj, int) == True \
         or isinstance(y_crd_obj, float) == True:
 
-        scatterplot_chart_dict['regr']['eqn_y_coord'] = [y_crd_obj]
+        regr_line_dict['eqn_y_coord'] = [y_crd_obj]
 
     elif isinstance(y_crd_obj, list) == True:
 
-        scatterplot_chart_dict['regr']['eqn_y_coord'] = y_crd_obj  
+        regr_line_dict['eqn_y_coord'] = y_crd_obj  
 
 
-# In[35]:
+# In[37]:
 
 
 #*******************************************************************************************
@@ -1509,7 +1592,7 @@ def get_bar_chart_dict():
     return bar_chart_dict
 
 
-# In[36]:
+# In[38]:
 
 
 #*******************************************************************************************
@@ -1543,7 +1626,7 @@ def set_bar_chart_dict(upd_dict):
     bar_chart_dict = upd_dict
 
 
-# In[37]:
+# In[39]:
 
 
 #*******************************************************************************************
@@ -1575,7 +1658,7 @@ def get_bar_chart_colors():
     return bar_chart_dict['params']['color']
 
 
-# In[38]:
+# In[40]:
 
 
 #*******************************************************************************************
@@ -1611,7 +1694,7 @@ def set_bar_chart_colors(upd_obj):
         = dtypesx.cnv_data_to_array(upd_obj)
 
 
-# In[39]:
+# In[41]:
 
 
 #*******************************************************************************************
@@ -1643,7 +1726,7 @@ def get_boxplot_chart_dict():
     return boxplot_chart_dict
 
 
-# In[40]:
+# In[42]:
 
 
 #*******************************************************************************************
@@ -1677,7 +1760,7 @@ def set_boxplot_chart_dict(upd_dict):
     boxplot_chart_dict = upd_dict
 
 
-# In[41]:
+# In[43]:
 
 
 #*******************************************************************************************
@@ -1709,7 +1792,7 @@ def get_histogram_chart_dict():
     return histogram_chart_dict
 
 
-# In[42]:
+# In[44]:
 
 
 #*******************************************************************************************
@@ -1744,7 +1827,7 @@ def set_histogram_chart_dict(upd_dict):
     histogram_chart_dict = upd_dict
 
 
-# In[43]:
+# In[45]:
 
 
 #*******************************************************************************************
@@ -1776,7 +1859,7 @@ def get_line_chart_dict():
     return line_chart_dict
 
 
-# In[44]:
+# In[46]:
 
 
 #*******************************************************************************************
@@ -1810,7 +1893,7 @@ def set_line_chart_dict(upd_dict):
     line_chart_dict = upd_dict
 
 
-# In[45]:
+# In[47]:
 
 
 #*******************************************************************************************
@@ -1842,7 +1925,7 @@ def get_pie_chart_dict():
     return pie_chart_dict
 
 
-# In[46]:
+# In[48]:
 
 
 #*******************************************************************************************
@@ -1876,7 +1959,7 @@ def set_pie_chart_dict(upd_dict):
     pie_chart_dict = upd_dict
 
 
-# In[47]:
+# In[49]:
 
 
 #*******************************************************************************************
@@ -1908,7 +1991,7 @@ def get_pie_chart_colors():
     return pie_chart_dict['params']['colors']
 
 
-# In[48]:
+# In[50]:
 
 
 #*******************************************************************************************
@@ -1944,7 +2027,7 @@ def set_pie_chart_colors(upd_obj):
         = dtypesx.cnv_data_to_array(upd_obj)
 
 
-# In[49]:
+# In[51]:
 
 
 #*******************************************************************************************
@@ -1976,7 +2059,7 @@ def get_pie_chart_explode():
     return pie_chart_dict['params']['explode']
 
 
-# In[50]:
+# In[52]:
 
 
 #*******************************************************************************************
@@ -2012,7 +2095,7 @@ def set_pie_chart_explode(upd_obj):
         = dtypesx.cnv_data_to_array(upd_obj)
 
 
-# In[51]:
+# In[53]:
 
 
 #*******************************************************************************************
@@ -2044,7 +2127,7 @@ def get_plot_chart_dict():
     return plot_chart_dict
 
 
-# In[52]:
+# In[54]:
 
 
 #*******************************************************************************************
@@ -2078,7 +2161,7 @@ def set_plot_chart_dict(upd_dict):
     plot_chart_dict = upd_dict
 
 
-# In[53]:
+# In[55]:
 
 
 #*******************************************************************************************
@@ -2110,7 +2193,7 @@ def get_scatterplot_chart_dict():
     return scatterplot_chart_dict
 
 
-# In[54]:
+# In[56]:
 
 
 #*******************************************************************************************
@@ -2145,7 +2228,7 @@ def set_scatterplot_chart_dict(upd_dict):
     scatterplot_chart_dict = upd_dict
 
 
-# In[55]:
+# In[57]:
 
 
 #*******************************************************************************************
@@ -2177,7 +2260,7 @@ def get_scatterplot_multichart_dict():
     return scatterplot_multichart_dict
 
 
-# In[56]:
+# In[58]:
 
 
 #*******************************************************************************************
@@ -2212,7 +2295,7 @@ def set_scatterplot_multichart_dict(upd_dict):
     scatterplot_multichart_dict = upd_dict
 
 
-# In[57]:
+# In[59]:
 
 
 #*******************************************************************************************
@@ -2258,7 +2341,7 @@ def proc_bar_chart_input(input_obj):
     else: return None
 
 
-# In[58]:
+# In[60]:
 
 
 #*******************************************************************************************
@@ -2313,7 +2396,7 @@ def proc_boxplot_chart_input(input_obj):
     return data, labels
 
 
-# In[59]:
+# In[61]:
 
 
 #*******************************************************************************************
@@ -2365,7 +2448,7 @@ def proc_line_chart_input(input_obj):
     else: return None
 
 
-# In[60]:
+# In[62]:
 
 
 #*******************************************************************************************
@@ -2417,7 +2500,7 @@ def proc_pie_chart_input(input_obj):
     return data, labels
 
 
-# In[61]:
+# In[63]:
 
 
 #*******************************************************************************************
@@ -2469,7 +2552,7 @@ def proc_plot_chart_input(input_obj):
     return temp_obj
 
 
-# In[62]:
+# In[64]:
 
 
 #*******************************************************************************************
@@ -2522,7 +2605,7 @@ def proc_scatterplot_chart_input(input_obj):
     return x_array, y_array
 
 
-# In[63]:
+# In[65]:
 
 
 #*******************************************************************************************
@@ -2575,7 +2658,7 @@ def proc_scatterplot_multichart_input(input_obj):
     else: return None, None
 
 
-# In[64]:
+# In[66]:
 
 
 #*******************************************************************************************
@@ -2640,7 +2723,7 @@ def proc_chart_input \
         return proc_scatterplot_multichart_input(input_obj)
 
 
-# In[65]:
+# In[67]:
 
 
 #*******************************************************************************************
@@ -2712,7 +2795,7 @@ def linear_regr_line \
     logx.print_and_log_text('r-squared:   {:.4f}\n'.format(rvalue*rvalue))
 
 
-# In[66]:
+# In[68]:
 
 
 #*******************************************************************************************
@@ -2804,7 +2887,7 @@ def regr_line \
     logx.print_and_log_text('r-squared:   {:.4f}'.format(r_sqr_flt))
 
 
-# In[67]:
+# In[69]:
 
 
 #*******************************************************************************************
@@ -2844,7 +2927,7 @@ def plot_subplots(chart_dict):
              sharey = chart_dict['figure']['sharey'])
 
 
-# In[68]:
+# In[70]:
 
 
 #*******************************************************************************************
@@ -2880,7 +2963,7 @@ def plot_subplot(chart_dict, idx):
          idx + 1)
 
 
-# In[69]:
+# In[71]:
 
 
 #*******************************************************************************************
@@ -2915,7 +2998,7 @@ def plot_figsize(chart_dict):
                chart_dict['figure']['length']))
 
 
-# In[70]:
+# In[72]:
 
 
 #*******************************************************************************************
@@ -2973,7 +3056,7 @@ def plot_title_axes \
              labelpad = chart_dict['ylabel']['pad'])
 
 
-# In[71]:
+# In[73]:
 
 
 #*******************************************************************************************
@@ -3030,7 +3113,7 @@ def plot_limits(chart_dict):
             plt.xlim(right = chart_dict['ylim']['adjust']['right']) 
 
 
-# In[72]:
+# In[74]:
 
 
 #*******************************************************************************************
@@ -3106,7 +3189,7 @@ def plot_ticks \
              axis =  chart_dict['grid']['axis'])   
 
 
-# In[73]:
+# In[75]:
 
 
 #*******************************************************************************************
@@ -3143,7 +3226,7 @@ def plot_legend(chart_dict):
              bbox_to_anchor = chart_dict['legend']['bbox_to_anchor'])
 
 
-# In[74]:
+# In[76]:
 
 
 #*******************************************************************************************
@@ -3179,16 +3262,16 @@ def plot_regr_line \
          chart_dict,
          idx = 0):
 
-    if chart_dict['regr']['degree'][idx] >= 1:
+    if chart_dict['degree'][idx] >= 1:
 
         regr_line \
             (x_array, y_array,
-             chart_dict['regr']['eqn_x_coord'][idx],
-             chart_dict['regr']['eqn_y_coord'][idx],
-             chart_dict['regr']['degree'][idx])
+             chart_dict['eqn_x_coord'][idx],
+             chart_dict['eqn_y_coord'][idx],
+             chart_dict['degree'][idx])
 
 
-# In[75]:
+# In[77]:
 
 
 #*******************************************************************************************
@@ -3247,7 +3330,7 @@ def plot_peaks \
                  color = chart_dict['peaks']['color'][1])
 
 
-# In[76]:
+# In[78]:
 
 
 #*******************************************************************************************
@@ -3310,7 +3393,7 @@ def plot_suptitle_axes \
              fontproperties = chart_dict['supylabel']['fontproperties'])
 
 
-# In[77]:
+# In[79]:
 
 
 #*******************************************************************************************
@@ -3348,7 +3431,7 @@ def plot_tight_layout(chart_dict):
              rect = chart_dict['tight_layout']['rect'])
 
 
-# In[78]:
+# In[80]:
 
 
 #*******************************************************************************************
@@ -3411,7 +3494,7 @@ def plot_bar_chart_series \
              alpha = chart_dict['params']['alpha'])
 
 
-# In[79]:
+# In[81]:
 
 
 #*******************************************************************************************
@@ -3475,7 +3558,7 @@ def plot_bar_chart_df \
 
 
 
-# In[80]:
+# In[82]:
 
 
 #*******************************************************************************************
@@ -3516,7 +3599,7 @@ def plot_bar_chart \
         plot_bar_chart_df(input_obj, chart_dict)
 
 
-# In[81]:
+# In[83]:
 
 
 #*******************************************************************************************
@@ -3563,7 +3646,7 @@ def plot_boxplot_chart \
          showmeans = chart_dict['params']['showmeans'])
 
 
-# In[82]:
+# In[84]:
 
 
 #*******************************************************************************************
@@ -3617,7 +3700,7 @@ def plot_histogram_chart \
          alpha = chart_dict['params']['alpha'])
 
 
-# In[83]:
+# In[85]:
 
 
 #*******************************************************************************************
@@ -3669,7 +3752,7 @@ def plot_line_chart \
              use_index = chart_dict['params']['use_index'])   
 
 
-# In[84]:
+# In[86]:
 
 
 #*******************************************************************************************
@@ -3724,7 +3807,7 @@ def plot_pie_chart \
          normalize = chart_dict['params']['normalize'])
 
 
-# In[85]:
+# In[87]:
 
 
 #*******************************************************************************************
@@ -3764,7 +3847,7 @@ def plot_plot_chart \
              alpha = chart_dict['params']['alpha'])
 
 
-# In[86]:
+# In[88]:
 
 
 #*******************************************************************************************
@@ -3810,7 +3893,7 @@ def plot_scatterplot_chart \
              edgecolors = chart_dict['marker']['edgecolors'])
 
 
-# In[87]:
+# In[89]:
 
 
 #*******************************************************************************************
@@ -3869,7 +3952,7 @@ def bar_chart \
     plt.show()    
 
 
-# In[88]:
+# In[90]:
 
 
 #*******************************************************************************************
@@ -3927,7 +4010,7 @@ def boxplot_chart \
     plt.show()
 
 
-# In[89]:
+# In[91]:
 
 
 #*******************************************************************************************
@@ -3986,7 +4069,7 @@ def histogram_chart \
     plt.show()
 
 
-# In[90]:
+# In[92]:
 
 
 #*******************************************************************************************
@@ -4045,7 +4128,7 @@ def line_chart \
     plt.show()
 
 
-# In[91]:
+# In[93]:
 
 
 #*******************************************************************************************
@@ -4101,7 +4184,7 @@ def pie_chart \
     plt.show()   
 
 
-# In[92]:
+# In[94]:
 
 
 #*******************************************************************************************
@@ -4162,7 +4245,7 @@ def plot_chart \
     plt.show()
 
 
-# In[93]:
+# In[95]:
 
 
 #*******************************************************************************************
@@ -4215,7 +4298,7 @@ def scatterplot_chart \
     plot_ticks(scatterplot_chart_dict)
 
 
-    plot_regr_line(x_array, y_array, scatterplot_chart_dict)
+    plot_regr_line(x_array, y_array, regr_line_dict)
 
 
     logx.save_plot_image(title)
@@ -4223,7 +4306,7 @@ def scatterplot_chart \
     plt.show()
 
 
-# In[94]:
+# In[96]:
 
 
 #*******************************************************************************************
@@ -4303,9 +4386,7 @@ def scatterplot_multichart \
         plot_ticks(scatterplot_chart_dict)
 
 
-        plot_regr_line \
-            (x_array, y_array, 
-             scatterplot_chart_dict, idx)
+        plot_regr_line(x_array, y_array, regr_line_dict, idx)
 
 
         plot_tight_layout(scatterplot_multichart_dict)

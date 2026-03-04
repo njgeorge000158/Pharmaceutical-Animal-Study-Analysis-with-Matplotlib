@@ -22,8 +22,6 @@ pip3 install -U geopy
 
 pip3 install -U scipy
 
-pip3 install -U aspose-words
-
 pip3 install -U dataframe-image
 
 pip3 install -U selenium
@@ -36,6 +34,8 @@ pip3 install -U selenium
 
 The Jupyter Notebook, pymaceuticals.ipynb, uses the CSV files, mouse_study_data.csv and mouse_study_results.csv, as input and will not run without them.  The Jupyter Notebook must have the following Python scripts in the same folder with it:
 
+dtypesx.py
+
 logx.py
 
 mathx.py
@@ -43,8 +43,6 @@ mathx.py
 matplotlibx.py
 
 pandasx.py
-
-timex.py
 
 If the folders, logs and images, are not present, the Jupyter Notebook will create them.  The folder, resources, holds input files for the Jupyter Notebook; the folder, logs, contains log files from testing the Jupyter Notebook; and the folder, images, has the PNG image files of the Jupyter Notebook's tables and plots.
 
@@ -58,7 +56,7 @@ To place the Jupyter Notebook in Log Mode or Image Mode set the parameter for th
 
 #### Source code
 
-pymaceuticals.ipynb, logx.py, mathx.py, matplotlibx.py, pandasx.py, timex.py
+pymaceuticals.ipynb, dtypesx.py, logx.py, mathx.py, matplotlibx.py, pandasx.py
 
 #### Input files
 
@@ -86,6 +84,8 @@ Jupyter Notebook, Matplotlib, Numpy, Pandas, Python 3.11.5
 
 #### main branch 
 
+|&rarr; [./dtypesx.py](./dtypesx.py)
+
 |&rarr; [./logx.py](./logx.py)
 
 |&rarr; [./mathx.py](./mathx.py)
@@ -96,15 +96,11 @@ Jupyter Notebook, Matplotlib, Numpy, Pandas, Python 3.11.5
 
 |&rarr; [./pymaceuticals.ipynb](./pymaceuticals.ipynb)
 
-|&rarr; [./pymaceuticalsx.py](./pymaceuticalsx.py)
-
 |&rarr; [./README.TECHNICAL.md](./README.TECHNICAL.md)
 
 |&rarr; [./README.md](./README.md)
 
 |&rarr; [./table_of_contents.md](./table_of_contents.md)
-
-|&rarr; [./timex.py](./timex.py)
 
 |&rarr; [./images/](./images/)
 
@@ -292,6 +288,8 @@ Jupyter Notebook, Matplotlib, Numpy, Pandas, Python 3.11.5
 |&rarr; [./logs/](./logs/)
 
   &emsp; |&rarr; [./logs/20240419pymaceuticals_log.txt](./logs/20240419pymaceuticals_log.txt)
+
+  &emsp; |&rarr; [./logs/20260304pymaceuticals_log.txt](./logs/20260304pymaceuticals_log.txt)
 
   &emsp; |&rarr; [./logs/README.md](./logs/README.md)
 

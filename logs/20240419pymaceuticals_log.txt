@@ -1,0 +1,3445 @@
+
+Timepoint: 2024/04/19 21:22:18
+Program execution begins...
+
+
+
+
+    Mouse ID Drug Regimen     Sex  Age_months  Weight (g)
+0       k403     Ramicane    Male          21        16.0
+1       s185    Capomulin  Female           3        17.0
+2       x401    Capomulin  Female          16        15.0
+3       m601    Capomulin    Male          22        17.0
+4       g791     Ramicane    Male          11        16.0
+..       ...          ...     ...         ...         ...
+244     z314     Stelasyn  Female          21        28.0
+245     z435     Propriva  Female          12        26.0
+246     z581    Infubinol  Female          24        25.0
+247     z795     Naftisol  Female          13        29.0
+248     z969     Naftisol    Male           9        30.0
+
+[249 rows x 5 columns]
+
+
+
+     Mouse ID  Timepoint  Tumor Volume (mm3)  Metastatic Sites
+0        b128          0           45.000000                 0
+1        f932          0           45.000000                 0
+2        g107          0           45.000000                 0
+3        a457          0           45.000000                 0
+4        c819          0           45.000000                 0
+...       ...        ...                 ...               ...
+1888     r944         45           41.581521                 2
+1889     u364         45           31.023923                 3
+1890     p438         45           61.433892                 1
+1891     x773         45           58.634971                 4
+1892     b879         45           72.555239                 2
+
+[1893 rows x 4 columns]
+
+
+
+     mouse_id drug_regimen   sex  age_months  weight_grams  timepoint  \
+0        k403     RAMICANE  Male          21          16.0          0   
+1        k403     RAMICANE  Male          21          16.0          5   
+2        k403     RAMICANE  Male          21          16.0         10   
+3        k403     RAMICANE  Male          21          16.0         15   
+4        k403     RAMICANE  Male          21          16.0         20   
+...       ...          ...   ...         ...           ...        ...   
+1888     z969     NAFTISOL  Male           9          30.0         25   
+1889     z969     NAFTISOL  Male           9          30.0         30   
+1890     z969     NAFTISOL  Male           9          30.0         35   
+1891     z969     NAFTISOL  Male           9          30.0         40   
+1892     z969     NAFTISOL  Male           9          30.0         45   
+
+      tumor_volume_mm3  metastatic_sites  
+0            45.000000                 0  
+1            38.825898                 0  
+2            35.014271                 1  
+3            34.223992                 1  
+4            32.997729                 1  
+...                ...               ...  
+1888         63.145652                 2  
+1889         65.841013                 3  
+1890         69.176246                 4  
+1891         70.314904                 4  
+1892         73.867845                 4  
+
+[1893 rows x 8 columns]
+
+
+Timepoint: 2024/04/19 21:22:18
+[1mThe number of unique mouse IDs in the complete medical study DataFrame is 249.[0m
+
+
+
+    mouse_id drug_regimen     sex  age_months  weight_grams  timepoint  \
+909     g989     PROPRIVA  Female          21          26.0          0   
+911     g989     PROPRIVA  Female          21          26.0          5   
+913     g989     PROPRIVA  Female          21          26.0         10   
+915     g989     PROPRIVA  Female          21          26.0         15   
+917     g989     PROPRIVA  Female          21          26.0         20   
+
+     tumor_volume_mm3  metastatic_sites  
+909         45.000000                 0  
+911         47.570392                 0  
+913         49.880528                 0  
+915         53.442020                 0  
+917         54.657650                 1  
+
+
+
+['g989']
+
+
+
+     mouse_id drug_regimen   sex  age_months  weight_grams  timepoint  \
+0        k403     RAMICANE  Male          21          16.0          0   
+1        k403     RAMICANE  Male          21          16.0          5   
+2        k403     RAMICANE  Male          21          16.0         10   
+3        k403     RAMICANE  Male          21          16.0         15   
+4        k403     RAMICANE  Male          21          16.0         20   
+...       ...          ...   ...         ...           ...        ...   
+1888     z969     NAFTISOL  Male           9          30.0         25   
+1889     z969     NAFTISOL  Male           9          30.0         30   
+1890     z969     NAFTISOL  Male           9          30.0         35   
+1891     z969     NAFTISOL  Male           9          30.0         40   
+1892     z969     NAFTISOL  Male           9          30.0         45   
+
+      tumor_volume_mm3  metastatic_sites  
+0            45.000000                 0  
+1            38.825898                 0  
+2            35.014271                 1  
+3            34.223992                 1  
+4            32.997729                 1  
+...                ...               ...  
+1888         63.145652                 2  
+1889         65.841013                 3  
+1890         69.176246                 4  
+1891         70.314904                 4  
+1892         73.867845                 4  
+
+[1880 rows x 8 columns]
+
+
+Timepoint: 2024/04/19 21:22:19
+[1mThe updated number of unique mouse IDs in the complete medical study DataFrame is 248.[0m
+
+
+
+<pandas.core.groupby.generic.DataFrameGroupBy object at 0x153f542d0>
+
+
+
+drug_regimen
+CAPOMULIN    40.675741
+CEFTAMIN     52.591172
+INFUBINOL    52.884795
+KETAPRIL     55.235638
+NAFTISOL     54.331565
+PLACEBO      54.033581
+PROPRIVA     52.320930
+RAMICANE     40.216745
+STELASYN     54.233149
+ZONIFEROL    53.236507
+Name: tumor_volume_mm3, dtype: float64
+
+
+
+drug_regimen
+CAPOMULIN    41.557809
+CEFTAMIN     51.776157
+INFUBINOL    51.820584
+KETAPRIL     53.698743
+NAFTISOL     52.509285
+PLACEBO      52.288934
+PROPRIVA     50.446266
+RAMICANE     40.673236
+STELASYN     52.431737
+ZONIFEROL    51.818479
+Name: tumor_volume_mm3, dtype: float64
+
+
+
+drug_regimen
+CAPOMULIN    24.947764
+CEFTAMIN     39.290177
+INFUBINOL    43.128684
+KETAPRIL     68.553577
+NAFTISOL     66.173479
+PLACEBO      61.168083
+PROPRIVA     43.852013
+RAMICANE     23.486704
+STELASYN     59.450562
+ZONIFEROL    48.533355
+Name: tumor_volume_mm3, dtype: float64
+
+
+
+drug_regimen
+CAPOMULIN    4.994774
+CEFTAMIN     6.268188
+INFUBINOL    6.567243
+KETAPRIL     8.279709
+NAFTISOL     8.134708
+PLACEBO      7.821003
+PROPRIVA     6.622085
+RAMICANE     4.846308
+STELASYN     7.710419
+ZONIFEROL    6.966589
+Name: tumor_volume_mm3, dtype: float64
+
+
+
+drug_regimen
+CAPOMULIN    0.329346
+CEFTAMIN     0.469821
+INFUBINOL    0.492236
+KETAPRIL     0.603860
+NAFTISOL     0.596466
+PLACEBO      0.581331
+PROPRIVA     0.544332
+RAMICANE     0.320955
+STELASYN     0.573111
+ZONIFEROL    0.516398
+Name: tumor_volume_mm3, dtype: float64
+
+
+
+                   mean     median   variance       std       sem
+drug_regimen                                                     
+CAPOMULIN     40.675741  41.557809  24.947764  4.994774  0.329346
+CEFTAMIN      52.591172  51.776157  39.290177  6.268188  0.469821
+INFUBINOL     52.884795  51.820584  43.128684  6.567243  0.492236
+KETAPRIL      55.235638  53.698743  68.553577  8.279709  0.603860
+NAFTISOL      54.331565  52.509285  66.173479  8.134708  0.596466
+PLACEBO       54.033581  52.288934  61.168083  7.821003  0.581331
+PROPRIVA      52.320930  50.446266  43.852013  6.622085  0.544332
+RAMICANE      40.216745  40.673236  23.486704  4.846308  0.320955
+STELASYN      54.233149  52.431737  59.450562  7.710419  0.573111
+ZONIFEROL     53.236507  51.818479  48.533355  6.966589  0.516398
+
+
+
+     mouse_id drug_regimen     sex  age_months  weight_grams  timepoint  \
+10       s185    CAPOMULIN  Female           3          17.0          0   
+11       s185    CAPOMULIN  Female           3          17.0          5   
+12       s185    CAPOMULIN  Female           3          17.0         10   
+13       s185    CAPOMULIN  Female           3          17.0         15   
+14       s185    CAPOMULIN  Female           3          17.0         20   
+...       ...          ...     ...         ...           ...        ...   
+440      i557    CAPOMULIN  Female           1          24.0         45   
+1452     r157    CAPOMULIN    Male          22          25.0          0   
+1453     r157    CAPOMULIN    Male          22          25.0          5   
+1454     r157    CAPOMULIN    Male          22          25.0         10   
+1455     r157    CAPOMULIN    Male          22          25.0         15   
+
+      tumor_volume_mm3  metastatic_sites  
+10           45.000000                 0  
+11           43.878496                 0  
+12           37.614948                 0  
+13           38.177232                 0  
+14           36.866876                 0  
+...                ...               ...  
+440          47.685963                 1  
+1452         45.000000                 0  
+1453         45.597064                 0  
+1454         46.059608                 0  
+1455         46.539206                 0  
+
+[230 rows x 8 columns]
+
+
+
+     mouse_id drug_regimen     sex  age_months  weight_grams  timepoint  \
+484      a275     CEFTAMIN  Female          20          28.0          0   
+485      a275     CEFTAMIN  Female          20          28.0          5   
+486      a275     CEFTAMIN  Female          20          28.0         10   
+487      a275     CEFTAMIN  Female          20          28.0         15   
+488      a275     CEFTAMIN  Female          20          28.0         20   
+...       ...          ...     ...         ...           ...        ...   
+1851     y865     CEFTAMIN    Male          23          26.0         25   
+1852     y865     CEFTAMIN    Male          23          26.0         30   
+1853     y865     CEFTAMIN    Male          23          26.0         35   
+1854     y865     CEFTAMIN    Male          23          26.0         40   
+1855     y865     CEFTAMIN    Male          23          26.0         45   
+
+      tumor_volume_mm3  metastatic_sites  
+484          45.000000                 0  
+485          46.795257                 0  
+486          47.371343                 0  
+487          49.734404                 0  
+488          50.513437                 1  
+...                ...               ...  
+1851         57.173538                 2  
+1852         59.033275                 3  
+1853         61.153140                 3  
+1854         63.469549                 3  
+1855         64.729837                 3  
+
+[178 rows x 8 columns]
+
+
+
+     mouse_id drug_regimen     sex  age_months  weight_grams  timepoint  \
+454      a203    INFUBINOL  Female          20          23.0          0   
+455      a203    INFUBINOL  Female          20          23.0          5   
+456      a203    INFUBINOL  Female          20          23.0         10   
+457      a203    INFUBINOL  Female          20          23.0         15   
+458      a203    INFUBINOL  Female          20          23.0         20   
+...       ...          ...     ...         ...           ...        ...   
+1868     z581    INFUBINOL  Female          24          25.0         25   
+1869     z581    INFUBINOL  Female          24          25.0         30   
+1870     z581    INFUBINOL  Female          24          25.0         35   
+1871     z581    INFUBINOL  Female          24          25.0         40   
+1872     z581    INFUBINOL  Female          24          25.0         45   
+
+      tumor_volume_mm3  metastatic_sites  
+454          45.000000                 0  
+455          48.508468                 0  
+456          51.852437                 1  
+457          52.777870                 1  
+458          55.173336                 1  
+...                ...               ...  
+1868         54.316407                 2  
+1869         56.286750                 2  
+1870         58.628399                 3  
+1871         60.053740                 3  
+1872         62.754451                 3  
+
+[178 rows x 8 columns]
+
+
+
+     mouse_id drug_regimen     sex  age_months  weight_grams  timepoint  \
+511      a457     KETAPRIL  Female          11          30.0          0   
+512      a457     KETAPRIL  Female          11          30.0          5   
+513      a457     KETAPRIL  Female          11          30.0         10   
+690      c580     KETAPRIL    Male          22          25.0          0   
+691      c580     KETAPRIL    Male          22          25.0          5   
+...       ...          ...     ...         ...           ...        ...   
+1819     y260     KETAPRIL  Female           7          25.0         25   
+1820     y260     KETAPRIL  Female           7          25.0         30   
+1821     y260     KETAPRIL  Female           7          25.0         35   
+1822     y260     KETAPRIL  Female           7          25.0         40   
+1823     y260     KETAPRIL  Female           7          25.0         45   
+
+      tumor_volume_mm3  metastatic_sites  
+511          45.000000                 0  
+512          47.462891                 0  
+513          49.783419                 0  
+690          45.000000                 0  
+691          46.628455                 0  
+...                ...               ...  
+1819         54.437562                 4  
+1820         58.582676                 4  
+1821         59.603558                 4  
+1822         60.914176                 4  
+1823         62.909441                 4  
+
+[188 rows x 8 columns]
+
+
+
+     mouse_id drug_regimen     sex  age_months  weight_grams  timepoint  \
+558      a818     NAFTISOL  Female          12          28.0          0   
+559      a818     NAFTISOL  Female          12          28.0          5   
+560      a818     NAFTISOL  Female          12          28.0         10   
+561      a818     NAFTISOL  Female          12          28.0         15   
+562      a818     NAFTISOL  Female          12          28.0         20   
+...       ...          ...     ...         ...           ...        ...   
+1888     z969     NAFTISOL    Male           9          30.0         25   
+1889     z969     NAFTISOL    Male           9          30.0         30   
+1890     z969     NAFTISOL    Male           9          30.0         35   
+1891     z969     NAFTISOL    Male           9          30.0         40   
+1892     z969     NAFTISOL    Male           9          30.0         45   
+
+      tumor_volume_mm3  metastatic_sites  
+558          45.000000                 0  
+559          45.696709                 0  
+560          49.790919                 0  
+561          51.227566                 0  
+562          54.834624                 0  
+...                ...               ...  
+1888         63.145652                 2  
+1889         65.841013                 3  
+1890         69.176246                 4  
+1891         70.314904                 4  
+1892         73.867845                 4  
+
+[186 rows x 8 columns]
+
+
+
+     mouse_id drug_regimen     sex  age_months  weight_grams  timepoint  \
+474      a262      PLACEBO  Female          17          29.0          0   
+475      a262      PLACEBO  Female          17          29.0          5   
+476      a262      PLACEBO  Female          17          29.0         10   
+477      a262      PLACEBO  Female          17          29.0         15   
+478      a262      PLACEBO  Female          17          29.0         20   
+...       ...          ...     ...         ...           ...        ...   
+1829     y478      PLACEBO  Female           3          25.0         25   
+1830     y478      PLACEBO  Female           3          25.0         30   
+1831     y478      PLACEBO  Female           3          25.0         35   
+1832     y478      PLACEBO  Female           3          25.0         40   
+1833     y478      PLACEBO  Female           3          25.0         45   
+
+      tumor_volume_mm3  metastatic_sites  
+474          45.000000                 0  
+475          48.717568                 1  
+476          49.595181                 1  
+477          53.827974                 2  
+478          57.013313                 2  
+...                ...               ...  
+1829         57.826976                 1  
+1830         59.374615                 1  
+1831         61.888027                 1  
+1832         65.971120                 1  
+1833         66.842635                 1  
+
+[181 rows x 8 columns]
+
+
+
+     mouse_id drug_regimen     sex  age_months  weight_grams  timepoint  \
+541      a699     PROPRIVA  Female           5          28.0          0   
+542      a699     PROPRIVA  Female           5          28.0          5   
+543      a699     PROPRIVA  Female           5          28.0         10   
+544      a699     PROPRIVA  Female           5          28.0         15   
+545      a699     PROPRIVA  Female           5          28.0         20   
+...       ...          ...     ...         ...           ...        ...   
+1741     x209     PROPRIVA  Female           7          29.0          5   
+1742     x209     PROPRIVA  Female           7          29.0         10   
+1860     z435     PROPRIVA  Female          12          26.0          0   
+1861     z435     PROPRIVA  Female          12          26.0          5   
+1862     z435     PROPRIVA  Female          12          26.0         10   
+
+      tumor_volume_mm3  metastatic_sites  
+541          45.000000                 0  
+542          46.553090                 0  
+543          47.867376                 0  
+544          49.530401                 0  
+545          50.712423                 0  
+...                ...               ...  
+1741         46.754269                 0  
+1742         48.929895                 0  
+1860         45.000000                 0  
+1861         47.115980                 0  
+1862         48.710661                 0  
+
+[148 rows x 8 columns]
+
+
+
+    mouse_id drug_regimen     sex  age_months  weight_grams  timepoint  \
+0       k403     RAMICANE    Male          21          16.0          0   
+1       k403     RAMICANE    Male          21          16.0          5   
+2       k403     RAMICANE    Male          21          16.0         10   
+3       k403     RAMICANE    Male          21          16.0         15   
+4       k403     RAMICANE    Male          21          16.0         20   
+..       ...          ...     ...         ...           ...        ...   
+449     w678     RAMICANE  Female           5          24.0          5   
+450     y449     RAMICANE    Male          19          24.0          0   
+451     y449     RAMICANE    Male          19          24.0          5   
+452     y449     RAMICANE    Male          19          24.0         10   
+453     y449     RAMICANE    Male          19          24.0         15   
+
+     tumor_volume_mm3  metastatic_sites  
+0           45.000000                 0  
+1           38.825898                 0  
+2           35.014271                 1  
+3           34.223992                 1  
+4           32.997729                 1  
+..                ...               ...  
+449         43.166373                 0  
+450         45.000000                 0  
+451         45.877545                 0  
+452         46.378092                 0  
+453         44.183451                 0  
+
+[228 rows x 8 columns]
+
+
+
+     mouse_id drug_regimen     sex  age_months  weight_grams  timepoint  \
+494      a366     STELASYN  Female          16          29.0          0   
+495      a366     STELASYN  Female          16          29.0          5   
+496      a366     STELASYN  Female          16          29.0         10   
+497      a366     STELASYN  Female          16          29.0         15   
+498      a366     STELASYN  Female          16          29.0         20   
+...       ...          ...     ...         ...           ...        ...   
+1761     x402     STELASYN    Male          21          28.0         35   
+1762     x402     STELASYN    Male          21          28.0         40   
+1763     x402     STELASYN    Male          21          28.0         45   
+1858     z314     STELASYN  Female          21          28.0          0   
+1859     z314     STELASYN  Female          21          28.0          5   
+
+      tumor_volume_mm3  metastatic_sites  
+494          45.000000                 0  
+495          48.951368                 0  
+496          53.523990                 0  
+497          55.265582                 0  
+498          57.285987                 0  
+...                ...               ...  
+1761         55.240962                 3  
+1762         56.691723                 3  
+1763         61.619606                 3  
+1858         45.000000                 0  
+1859         45.934712                 0  
+
+[181 rows x 8 columns]
+
+
+
+     mouse_id drug_regimen     sex  age_months  weight_grams  timepoint  \
+501      a401    ZONIFEROL  Female           8          25.0          0   
+502      a401    ZONIFEROL  Female           8          25.0          5   
+503      a401    ZONIFEROL  Female           8          25.0         10   
+504      a401    ZONIFEROL  Female           8          25.0         15   
+505      a401    ZONIFEROL  Female           8          25.0         20   
+...       ...          ...     ...         ...           ...        ...   
+1719     w575    ZONIFEROL  Female          16          28.0         45   
+1774     x613    ZONIFEROL  Female           2          29.0          0   
+1775     x613    ZONIFEROL  Female           2          29.0          5   
+1776     x613    ZONIFEROL  Female           2          29.0         10   
+1777     x613    ZONIFEROL  Female           2          29.0         15   
+
+      tumor_volume_mm3  metastatic_sites  
+501          45.000000                 0  
+502          46.111986                 0  
+503          47.725937                 1  
+504          49.934725                 1  
+505          52.204511                 2  
+...                ...               ...  
+1719         68.401286                 3  
+1774         45.000000                 0  
+1775         46.097041                 0  
+1776         46.818176                 0  
+1777         48.077646                 0  
+
+[182 rows x 8 columns]
+
+
+
+g316
+
+
+
+l471
+
+
+
+k804
+
+
+
+k382
+
+
+
+b559
+
+
+
+y478
+
+
+
+c927
+
+
+
+u196
+
+
+
+c402
+
+
+
+k894
+
+
+
+    mouse_id drug_regimen     sex  age_months  weight_grams  timepoint  \
+351     g316    CAPOMULIN  Female          22          22.0          0   
+352     g316    CAPOMULIN  Female          22          22.0          5   
+353     g316    CAPOMULIN  Female          22          22.0         10   
+354     g316    CAPOMULIN  Female          22          22.0         15   
+355     g316    CAPOMULIN  Female          22          22.0         20   
+356     g316    CAPOMULIN  Female          22          22.0         25   
+357     g316    CAPOMULIN  Female          22          22.0         30   
+358     g316    CAPOMULIN  Female          22          22.0         35   
+359     g316    CAPOMULIN  Female          22          22.0         40   
+360     g316    CAPOMULIN  Female          22          22.0         45   
+
+     tumor_volume_mm3  metastatic_sites  
+351         45.000000                 0  
+352         44.022752                 0  
+353         44.502042                 0  
+354         45.216743                 0  
+355         45.933322                 1  
+356         46.809225                 1  
+357         44.221480                 2  
+358         44.702833                 2  
+359         45.565821                 2  
+360         40.159220                 2  
+
+
+
+     mouse_id drug_regimen     sex  age_months  weight_grams  timepoint  \
+1103     l471     CEFTAMIN  Female           7          28.0          0   
+1104     l471     CEFTAMIN  Female           7          28.0          5   
+1105     l471     CEFTAMIN  Female           7          28.0         10   
+1106     l471     CEFTAMIN  Female           7          28.0         15   
+1107     l471     CEFTAMIN  Female           7          28.0         20   
+1108     l471     CEFTAMIN  Female           7          28.0         25   
+1109     l471     CEFTAMIN  Female           7          28.0         30   
+1110     l471     CEFTAMIN  Female           7          28.0         35   
+1111     l471     CEFTAMIN  Female           7          28.0         40   
+1112     l471     CEFTAMIN  Female           7          28.0         45   
+
+      tumor_volume_mm3  metastatic_sites  
+1103         45.000000                 0  
+1104         46.251872                 0  
+1105         48.182063                 0  
+1106         49.406879                 0  
+1107         52.228327                 0  
+1108         52.847559                 1  
+1109         58.093604                 1  
+1110         61.405999                 1  
+1111         63.844858                 1  
+1112         67.748662                 1  
+
+
+
+     mouse_id drug_regimen     sex  age_months  weight_grams  timepoint  \
+1069     k804    INFUBINOL  Female          23          29.0          0   
+1070     k804    INFUBINOL  Female          23          29.0          5   
+1071     k804    INFUBINOL  Female          23          29.0         10   
+1072     k804    INFUBINOL  Female          23          29.0         15   
+1073     k804    INFUBINOL  Female          23          29.0         20   
+1074     k804    INFUBINOL  Female          23          29.0         25   
+1075     k804    INFUBINOL  Female          23          29.0         30   
+1076     k804    INFUBINOL  Female          23          29.0         35   
+
+      tumor_volume_mm3  metastatic_sites  
+1069         45.000000                 0  
+1070         48.266204                 0  
+1071         49.471244                 0  
+1072         50.477618                 0  
+1073         54.484519                 0  
+1074         55.674808                 1  
+1075         59.240615                 2  
+1076         62.117279                 2  
+
+
+
+     mouse_id drug_regimen   sex  age_months  weight_grams  timepoint  \
+1034     k382     KETAPRIL  Male          22          29.0          0   
+1035     k382     KETAPRIL  Male          22          29.0          5   
+1036     k382     KETAPRIL  Male          22          29.0         10   
+1037     k382     KETAPRIL  Male          22          29.0         15   
+1038     k382     KETAPRIL  Male          22          29.0         20   
+1039     k382     KETAPRIL  Male          22          29.0         25   
+1040     k382     KETAPRIL  Male          22          29.0         30   
+1041     k382     KETAPRIL  Male          22          29.0         35   
+1042     k382     KETAPRIL  Male          22          29.0         40   
+1043     k382     KETAPRIL  Male          22          29.0         45   
+
+      tumor_volume_mm3  metastatic_sites  
+1034         45.000000                 0  
+1035         46.274997                 1  
+1036         50.180968                 1  
+1037         54.429168                 1  
+1038         57.824351                 2  
+1039         59.503904                 3  
+1040         63.469442                 4  
+1041         66.079185                 4  
+1042         67.420955                 4  
+1043         73.715619                 4  
+
+
+
+    mouse_id drug_regimen   sex  age_months  weight_grams  timepoint  \
+601     b559     NAFTISOL  Male          20          26.0          0   
+602     b559     NAFTISOL  Male          20          26.0          5   
+603     b559     NAFTISOL  Male          20          26.0         10   
+604     b559     NAFTISOL  Male          20          26.0         15   
+605     b559     NAFTISOL  Male          20          26.0         20   
+606     b559     NAFTISOL  Male          20          26.0         25   
+607     b559     NAFTISOL  Male          20          26.0         30   
+608     b559     NAFTISOL  Male          20          26.0         35   
+609     b559     NAFTISOL  Male          20          26.0         40   
+610     b559     NAFTISOL  Male          20          26.0         45   
+
+     tumor_volume_mm3  metastatic_sites  
+601         45.000000                 0  
+602         47.409897                 0  
+603         48.036432                 0  
+604         51.378862                 0  
+605         55.654456                 1  
+606         57.043669                 1  
+607         61.190387                 1  
+608         65.705763                 1  
+609         69.969616                 1  
+610         73.051363                 1  
+
+
+
+     mouse_id drug_regimen     sex  age_months  weight_grams  timepoint  \
+1824     y478      PLACEBO  Female           3          25.0          0   
+1825     y478      PLACEBO  Female           3          25.0          5   
+1826     y478      PLACEBO  Female           3          25.0         10   
+1827     y478      PLACEBO  Female           3          25.0         15   
+1828     y478      PLACEBO  Female           3          25.0         20   
+1829     y478      PLACEBO  Female           3          25.0         25   
+1830     y478      PLACEBO  Female           3          25.0         30   
+1831     y478      PLACEBO  Female           3          25.0         35   
+1832     y478      PLACEBO  Female           3          25.0         40   
+1833     y478      PLACEBO  Female           3          25.0         45   
+
+      tumor_volume_mm3  metastatic_sites  
+1824         45.000000                 0  
+1825         48.641078                 1  
+1826         52.288934                 1  
+1827         53.610406                 1  
+1828         56.848850                 1  
+1829         57.826976                 1  
+1830         59.374615                 1  
+1831         61.888027                 1  
+1832         65.971120                 1  
+1833         66.842635                 1  
+
+
+
+    mouse_id drug_regimen     sex  age_months  weight_grams  timepoint  \
+743     c927     PROPRIVA  Female           4          26.0          0   
+744     c927     PROPRIVA  Female           4          26.0          5   
+745     c927     PROPRIVA  Female           4          26.0         10   
+746     c927     PROPRIVA  Female           4          26.0         15   
+747     c927     PROPRIVA  Female           4          26.0         20   
+748     c927     PROPRIVA  Female           4          26.0         25   
+749     c927     PROPRIVA  Female           4          26.0         30   
+750     c927     PROPRIVA  Female           4          26.0         35   
+751     c927     PROPRIVA  Female           4          26.0         40   
+
+     tumor_volume_mm3  metastatic_sites  
+743         45.000000                 0  
+744         46.351842                 0  
+745         50.965298                 1  
+746         53.266431                 1  
+747         55.481689                 1  
+748         56.545519                 2  
+749         60.753925                 2  
+750         61.872274                 3  
+751         64.183229                 4  
+
+
+
+    mouse_id drug_regimen   sex  age_months  weight_grams  timepoint  \
+401     u196     RAMICANE  Male          18          25.0          0   
+402     u196     RAMICANE  Male          18          25.0          5   
+403     u196     RAMICANE  Male          18          25.0         10   
+404     u196     RAMICANE  Male          18          25.0         15   
+405     u196     RAMICANE  Male          18          25.0         20   
+406     u196     RAMICANE  Male          18          25.0         25   
+407     u196     RAMICANE  Male          18          25.0         30   
+408     u196     RAMICANE  Male          18          25.0         35   
+409     u196     RAMICANE  Male          18          25.0         40   
+410     u196     RAMICANE  Male          18          25.0         45   
+
+     tumor_volume_mm3  metastatic_sites  
+401         45.000000                 0  
+402         45.557464                 1  
+403         46.422943                 1  
+404         47.227171                 1  
+405         46.105363                 1  
+406         46.705325                 1  
+407         47.622816                 2  
+408         47.001465                 2  
+409         43.453687                 2  
+410         40.667713                 3  
+
+
+
+    mouse_id drug_regimen     sex  age_months  weight_grams  timepoint  \
+670     c402     STELASYN  Female           1          27.0          0   
+671     c402     STELASYN  Female           1          27.0          5   
+672     c402     STELASYN  Female           1          27.0         10   
+673     c402     STELASYN  Female           1          27.0         15   
+674     c402     STELASYN  Female           1          27.0         20   
+675     c402     STELASYN  Female           1          27.0         25   
+676     c402     STELASYN  Female           1          27.0         30   
+677     c402     STELASYN  Female           1          27.0         35   
+678     c402     STELASYN  Female           1          27.0         40   
+679     c402     STELASYN  Female           1          27.0         45   
+
+     tumor_volume_mm3  metastatic_sites  
+670         45.000000                 0  
+671         49.342630                 1  
+672         50.566894                 1  
+673         52.230719                 1  
+674         54.883320                 2  
+675         58.269889                 2  
+676         63.743194                 2  
+677         65.807963                 2  
+678         70.222297                 2  
+679         74.040390                 3  
+
+
+
+     mouse_id drug_regimen     sex  age_months  weight_grams  timepoint  \
+1087     k894    ZONIFEROL  Female          13          29.0          0   
+1088     k894    ZONIFEROL  Female          13          29.0          5   
+1089     k894    ZONIFEROL  Female          13          29.0         10   
+1090     k894    ZONIFEROL  Female          13          29.0         15   
+1091     k894    ZONIFEROL  Female          13          29.0         20   
+1092     k894    ZONIFEROL  Female          13          29.0         25   
+1093     k894    ZONIFEROL  Female          13          29.0         30   
+1094     k894    ZONIFEROL  Female          13          29.0         35   
+1095     k894    ZONIFEROL  Female          13          29.0         40   
+1096     k894    ZONIFEROL  Female          13          29.0         45   
+
+      tumor_volume_mm3  metastatic_sites  
+1087         45.000000                 0  
+1088         47.645687                 0  
+1089         49.272870                 1  
+1090         49.987766                 1  
+1091         50.981639                 1  
+1092         52.325838                 2  
+1093         54.400123                 3  
+1094         55.362662                 4  
+1095         58.647056                 4  
+1096         60.752704                 4  
+
+
+
+351     0
+352     5
+353    10
+354    15
+355    20
+356    25
+357    30
+358    35
+359    40
+360    45
+Name: timepoint, dtype: int64
+
+
+
+351    45.000000
+352    44.022752
+353    44.502042
+354    45.216743
+355    45.933322
+356    46.809225
+357    44.221480
+358    44.702833
+359    45.565821
+360    40.159220
+Name: tumor_volume_mm3, dtype: float64
+
+
+
+1103     0
+1104     5
+1105    10
+1106    15
+1107    20
+1108    25
+1109    30
+1110    35
+1111    40
+1112    45
+Name: timepoint, dtype: int64
+
+
+
+1103    45.000000
+1104    46.251872
+1105    48.182063
+1106    49.406879
+1107    52.228327
+1108    52.847559
+1109    58.093604
+1110    61.405999
+1111    63.844858
+1112    67.748662
+Name: tumor_volume_mm3, dtype: float64
+
+
+
+1069     0
+1070     5
+1071    10
+1072    15
+1073    20
+1074    25
+1075    30
+1076    35
+Name: timepoint, dtype: int64
+
+
+
+1069    45.000000
+1070    48.266204
+1071    49.471244
+1072    50.477618
+1073    54.484519
+1074    55.674808
+1075    59.240615
+1076    62.117279
+Name: tumor_volume_mm3, dtype: float64
+
+
+
+1034     0
+1035     5
+1036    10
+1037    15
+1038    20
+1039    25
+1040    30
+1041    35
+1042    40
+1043    45
+Name: timepoint, dtype: int64
+
+
+
+1034    45.000000
+1035    46.274997
+1036    50.180968
+1037    54.429168
+1038    57.824351
+1039    59.503904
+1040    63.469442
+1041    66.079185
+1042    67.420955
+1043    73.715619
+Name: tumor_volume_mm3, dtype: float64
+
+
+
+601     0
+602     5
+603    10
+604    15
+605    20
+606    25
+607    30
+608    35
+609    40
+610    45
+Name: timepoint, dtype: int64
+
+
+
+601    45.000000
+602    47.409897
+603    48.036432
+604    51.378862
+605    55.654456
+606    57.043669
+607    61.190387
+608    65.705763
+609    69.969616
+610    73.051363
+Name: tumor_volume_mm3, dtype: float64
+
+
+
+1824     0
+1825     5
+1826    10
+1827    15
+1828    20
+1829    25
+1830    30
+1831    35
+1832    40
+1833    45
+Name: timepoint, dtype: int64
+
+
+
+1824    45.000000
+1825    48.641078
+1826    52.288934
+1827    53.610406
+1828    56.848850
+1829    57.826976
+1830    59.374615
+1831    61.888027
+1832    65.971120
+1833    66.842635
+Name: tumor_volume_mm3, dtype: float64
+
+
+
+743     0
+744     5
+745    10
+746    15
+747    20
+748    25
+749    30
+750    35
+751    40
+Name: timepoint, dtype: int64
+
+
+
+743    45.000000
+744    46.351842
+745    50.965298
+746    53.266431
+747    55.481689
+748    56.545519
+749    60.753925
+750    61.872274
+751    64.183229
+Name: tumor_volume_mm3, dtype: float64
+
+
+
+401     0
+402     5
+403    10
+404    15
+405    20
+406    25
+407    30
+408    35
+409    40
+410    45
+Name: timepoint, dtype: int64
+
+
+
+401    45.000000
+402    45.557464
+403    46.422943
+404    47.227171
+405    46.105363
+406    46.705325
+407    47.622816
+408    47.001465
+409    43.453687
+410    40.667713
+Name: tumor_volume_mm3, dtype: float64
+
+
+
+670     0
+671     5
+672    10
+673    15
+674    20
+675    25
+676    30
+677    35
+678    40
+679    45
+Name: timepoint, dtype: int64
+
+
+
+670    45.000000
+671    49.342630
+672    50.566894
+673    52.230719
+674    54.883320
+675    58.269889
+676    63.743194
+677    65.807963
+678    70.222297
+679    74.040390
+Name: tumor_volume_mm3, dtype: float64
+
+
+
+1087     0
+1088     5
+1089    10
+1090    15
+1091    20
+1092    25
+1093    30
+1094    35
+1095    40
+1096    45
+Name: timepoint, dtype: int64
+
+
+
+1087    45.000000
+1088    47.645687
+1089    49.272870
+1090    49.987766
+1091    50.981639
+1092    52.325838
+1093    54.400123
+1094    55.362662
+1095    58.647056
+1096    60.752704
+Name: tumor_volume_mm3, dtype: float64
+
+
+
+     mouse_id drug_regimen     sex  age_months  weight_grams  timepoint  \
+0        k403     RAMICANE    Male          21          16.0          0   
+1        k403     RAMICANE    Male          21          16.0          5   
+2        k403     RAMICANE    Male          21          16.0         10   
+3        k403     RAMICANE    Male          21          16.0         15   
+4        k403     RAMICANE    Male          21          16.0         20   
+...       ...          ...     ...         ...           ...        ...   
+1868     z581    INFUBINOL  Female          24          25.0         25   
+1869     z581    INFUBINOL  Female          24          25.0         30   
+1870     z581    INFUBINOL  Female          24          25.0         35   
+1871     z581    INFUBINOL  Female          24          25.0         40   
+1872     z581    INFUBINOL  Female          24          25.0         45   
+
+      tumor_volume_mm3  metastatic_sites  
+0            45.000000                 0  
+1            38.825898                 0  
+2            35.014271                 1  
+3            34.223992                 1  
+4            32.997729                 1  
+...                ...               ...  
+1868         54.316407                 2  
+1869         56.286750                 2  
+1870         58.628399                 3  
+1871         60.053740                 3  
+1872         62.754451                 3  
+
+[995 rows x 8 columns]
+
+
+
+    mouse_id  timepoint
+0       a203         45
+1       a251         45
+2       a262         45
+3       a275         45
+4       a366         30
+..       ...        ...
+243     z435         10
+244     z578         45
+245     z581         45
+246     z795         45
+247     z969         45
+
+[248 rows x 2 columns]
+
+
+
+    mouse_id  timepoint drug_regimen     sex  age_months  weight_grams  \
+0       a203         45    INFUBINOL  Female          20          23.0   
+1       a251         45    INFUBINOL  Female          21          25.0   
+2       a262         45      PLACEBO  Female          17          29.0   
+3       a275         45     CEFTAMIN  Female          20          28.0   
+4       a366         30     STELASYN  Female          16          29.0   
+..       ...        ...          ...     ...         ...           ...   
+243     z435         10     PROPRIVA  Female          12          26.0   
+244     z578         45     RAMICANE    Male          11          16.0   
+245     z581         45    INFUBINOL  Female          24          25.0   
+246     z795         45     NAFTISOL  Female          13          29.0   
+247     z969         45     NAFTISOL    Male           9          30.0   
+
+     tumor_volume_mm3  metastatic_sites  
+0           67.973419                 2  
+1           65.525743                 1  
+2           70.717621                 4  
+3           62.999356                 3  
+4           63.440686                 1  
+..                ...               ...  
+243         48.710661                 0  
+244         30.638696                 0  
+245         62.754451                 3  
+246         65.741070                 3  
+247         73.867845                 4  
+
+[248 rows x 8 columns]
+
+
+Timepoint: 2024/04/19 21:22:24
+True
+
+
+
+['CAPOMULIN', 'CEFTAMIN', 'INFUBINOL', 'KETAPRIL', 'NAFTISOL', 'PLACEBO', 'PROPRIVA', 'RAMICANE', 'STELASYN', 'ZONIFEROL']
+
+
+
+[19     38.982878
+24     38.939633
+61     30.485985
+64     37.074024
+66     40.159220
+80     47.685963
+83     37.311846
+85     38.125164
+87     38.753265
+108    41.483008
+115    38.846876
+121    28.430964
+124    33.329098
+162    46.539206
+163    32.377357
+169    41.581521
+174    23.343598
+180    40.728578
+183    34.455298
+192    31.023923
+204    40.658124
+208    39.952347
+220    36.041047
+226    28.484033
+239    31.896238
+Name: tumor_volume_mm3, dtype: float64, 3      62.999356
+21     45.000000
+22     56.057749
+25     55.742829
+58     48.722078
+75     47.784682
+88     61.849023
+94     68.923185
+106    67.748662
+107    57.918381
+109    46.784535
+110    59.851956
+113    64.299830
+134    59.741901
+150    61.433892
+154    64.192341
+184    45.000000
+188    52.925348
+189    45.000000
+209    67.527482
+223    45.000000
+228    64.634949
+231    61.386660
+238    68.594745
+240    64.729837
+Name: tumor_volume_mm3, dtype: float64, 0      67.973419
+1      65.525743
+11     57.031862
+13     66.083066
+27     72.226731
+31     36.321346
+41     60.969711
+50     62.435404
+56     60.918767
+78     67.289621
+97     66.196912
+101    62.117279
+123    47.010364
+129    60.165180
+141    55.629428
+142    45.699331
+153    54.656549
+170    55.650681
+197    46.250112
+200    54.048608
+202    51.542431
+211    50.005138
+216    58.268442
+233    67.685569
+245    62.754451
+Name: tumor_volume_mm3, dtype: float64, 8      49.783419
+35     58.046569
+39     62.175705
+40     65.415955
+46     60.233733
+55     48.194578
+60     45.000000
+63     71.905117
+67     69.872251
+72     74.104086
+74     45.000000
+95     73.715619
+105    50.659581
+120    69.253503
+122    73.901399
+132    66.229606
+136    78.567014
+145    64.487812
+147    75.294936
+152    51.236606
+191    66.268801
+195    56.720095
+199    63.189432
+213    67.989530
+234    62.909441
+Name: tumor_volume_mm3, dtype: float64, 16     74.997764
+23     73.051363
+47     63.105696
+49     55.138953
+51     68.359777
+62     52.079510
+90     69.563621
+111    63.946640
+112    76.668817
+116    54.082437
+125    63.586395
+139    50.015079
+164    62.670759
+165    69.778544
+186    75.113288
+194    45.000000
+196    65.466074
+203    51.296543
+224    63.283288
+225    45.000000
+232    53.726101
+237    48.475003
+241    46.129357
+246    65.741070
+247    73.867845
+Name: tumor_volume_mm3, dtype: float64, 2      70.717621
+17     72.255963
+29     65.815165
+36     69.042841
+38     69.823146
+48     73.212939
+79     47.520632
+82     53.303185
+86     52.942902
+114    45.000000
+131    58.011146
+135    62.030594
+140    73.059454
+156    53.713158
+160    66.096475
+167    50.218605
+172    64.119142
+173    49.000125
+185    63.423695
+187    56.527952
+198    50.649038
+205    52.614689
+210    68.134288
+230    58.634971
+236    66.842635
+Name: tumor_volume_mm3, dtype: float64, 14     62.191414
+42     64.183229
+68     61.774963
+69     70.492788
+81     58.633404
+99     50.180109
+104    53.653970
+127    45.000000
+128    46.099100
+130    49.145709
+137    47.081086
+138    72.455421
+148    55.341834
+161    58.406473
+171    55.841410
+175    60.008783
+181    64.911363
+193    49.110050
+206    70.167749
+212    64.957562
+219    49.453270
+221    49.122969
+222    48.929895
+243    48.710661
+Name: tumor_volume_mm3, dtype: float64, 6      38.407618
+7      43.047543
+10     38.810366
+12     32.978522
+33     38.342008
+37     33.397653
+45     37.311236
+52     40.659006
+70     29.128472
+76     33.562402
+77     36.374510
+91     31.560470
+93     36.134852
+96     22.050126
+119    30.564625
+126    31.095335
+157    45.220869
+158    36.561652
+166    37.225650
+168    43.419381
+177    30.276232
+190    40.667713
+217    43.166373
+235    44.183451
+244    30.638696
+Name: tumor_volume_mm3, dtype: float64, 4      63.440686
+9      60.122011
+18     62.765093
+26     72.555239
+32     74.040390
+54     57.748758
+71     51.060419
+73     55.455290
+84     65.341811
+92     70.653832
+98     52.105574
+102    69.299149
+117    75.123690
+143    45.000000
+149    69.038876
+151    59.131023
+178    72.588964
+179    46.602269
+182    68.711630
+201    49.412624
+214    52.600270
+218    63.689042
+227    61.619606
+242    45.934712
+Name: tumor_volume_mm3, dtype: float64, 5      66.794156
+15     60.413709
+20     55.745146
+28     67.942121
+30     64.575222
+34     61.840058
+43     45.000000
+44     47.474645
+53     49.988302
+57     47.033100
+59     73.324432
+65     68.163195
+89     64.294085
+100    52.693423
+103    60.752704
+118    52.110088
+133    49.825004
+144    62.327966
+146    63.488697
+155    68.611061
+159    70.827796
+176    62.109651
+207    47.717952
+215    68.401286
+229    48.077646
+Name: tumor_volume_mm3, dtype: float64]
+
+
+
+[19     45
+24     45
+61     20
+64     45
+66     45
+80     45
+83     45
+85     45
+87     35
+108    45
+115    45
+121    45
+124    45
+162    15
+163    45
+169    45
+174    45
+180    45
+183    45
+192    45
+204    45
+208    10
+220    45
+226    45
+239    45
+Name: timepoint, dtype: int64, 3      45
+21      0
+22     25
+25     30
+58     15
+75      5
+88     45
+94     45
+106    45
+107    30
+109    10
+110    45
+113    45
+134    45
+150    45
+154    40
+184     0
+188    25
+189     0
+209    45
+223     0
+228    45
+231    45
+238    45
+240    45
+Name: timepoint, dtype: int64, 0      45
+1      45
+11     30
+13     45
+27     45
+31      5
+41     30
+50     45
+56     45
+78     40
+97     45
+101    35
+123     5
+129    30
+141    35
+142     5
+153    30
+170    25
+197     5
+200    20
+202    15
+211    20
+216    30
+233    45
+245    45
+Name: timepoint, dtype: int64, 8      10
+35     30
+39     40
+40     45
+46     40
+55      5
+60      0
+63     35
+67     45
+72     45
+74      0
+95     45
+105    10
+120    45
+122    45
+132    40
+136    45
+145    40
+147    45
+152    10
+191    45
+195    25
+199    35
+213    45
+234    45
+Name: timepoint, dtype: int64, 16     45
+23     45
+47     45
+49     25
+51     45
+62     20
+90     45
+111    45
+112    45
+116    25
+125    45
+139    15
+164    45
+165    45
+186    45
+194     0
+196    40
+203    20
+224    40
+225     0
+232    25
+237     5
+241     5
+246    45
+247    45
+Name: timepoint, dtype: int64, 2      45
+17     45
+29     45
+36     45
+38     45
+48     45
+79     10
+82     25
+86     20
+114     0
+131    40
+135    30
+140    45
+156    35
+160    45
+167    15
+172    25
+173    10
+185    45
+187    20
+198    10
+205    10
+210    35
+230    45
+236    45
+Name: timepoint, dtype: int64, 14     45
+42     40
+68     40
+69     45
+81     45
+99     20
+104    10
+127     0
+128     5
+130    10
+137    10
+138    45
+148    25
+161    30
+171    30
+175    30
+181    45
+193    20
+206    45
+212    45
+219     5
+221    10
+222    10
+243    10
+Name: timepoint, dtype: int64, 6      45
+7      45
+10     45
+12     45
+33     30
+37     45
+45     45
+52     45
+70     45
+76     45
+77     45
+91     45
+93     45
+96     45
+119    45
+126    45
+157    45
+158    35
+166    45
+168    30
+177    45
+190    45
+217     5
+235    15
+244    45
+Name: timepoint, dtype: int64, 4      30
+9      45
+18     45
+26     45
+32     45
+54     35
+71     15
+73     30
+84     45
+92     45
+98     20
+102    45
+117    45
+143     0
+149    40
+151    35
+178    45
+179     5
+182    45
+201    15
+214    25
+218    35
+227    45
+242     5
+Name: timepoint, dtype: int64, 5      45
+15     30
+20     25
+28     45
+30     45
+34     45
+43      0
+44     10
+53     15
+57      5
+59     45
+65     45
+89     45
+100    20
+103    45
+118    15
+133    15
+144    45
+146    45
+155    45
+159    45
+176    45
+207     5
+215    45
+229    15
+Name: timepoint, dtype: int64]
+
+
+
+drug_regimen
+CAPOMULIN    230
+RAMICANE     228
+KETAPRIL     188
+NAFTISOL     186
+ZONIFEROL    182
+PLACEBO      181
+STELASYN     181
+INFUBINOL    178
+CEFTAMIN     178
+PROPRIVA     148
+Name: count, dtype: int64
+
+
+
+   mouse_id  timepoint drug_regimen     sex  age_months  weight_grams  \
+31     c326          5    INFUBINOL  Female          18          25.0   
+
+    tumor_volume_mm3  metastatic_sites  
+31         36.321346                 0  
+
+
+
+    mouse_id drug_regimen     sex  age_months  weight_grams  timepoint  \
+668     c326    INFUBINOL  Female          18          25.0          0   
+669     c326    INFUBINOL  Female          18          25.0          5   
+
+     tumor_volume_mm3  metastatic_sites  
+668         45.000000                 0  
+669         36.321346                 0  
+
+
+Timepoint: 2024/04/19 21:22:37
+[1mThe range of data points per mouse is 1-10.[0m
+
+
+
+mouse_id
+a203    10
+a251    10
+a262    10
+a275    10
+a366     7
+        ..
+z435     3
+z578    10
+z581    10
+z795    10
+z969    10
+Name: drug_regimen, Length: 248, dtype: int64
+
+
+
+          drug_regimen
+mouse_id              
+a203                10
+a251                10
+a262                10
+a275                10
+a366                 7
+...                ...
+z435                 3
+z578                10
+z581                10
+z795                10
+z969                10
+
+[248 rows x 1 columns]
+
+
+
+['a457', 'b447', 'c326', 'd133', 'd164', 'f278', 'f394', 'f932', 'h428', 'h531', 'i477', 'l215', 'l264', 'l558', 'l872', 'm756', 'n482', 'n630', 'n678', 'o523', 'o813', 'o848', 'q119', 's166', 's619', 't573', 'u153', 'v199', 'v339', 'v409', 'v989', 'w140', 'w150', 'w678', 'w746', 'x111', 'x209', 'x226', 'x336', 'y601', 'z234', 'z314', 'z435']
+
+
+
+['b313', 'b487', 'e291', 'f129', 'f436', 'f966', 'f993', 'g867', 'i669', 'j235', 'k510', 'k603', 'k754', 'm133', 'm331', 'n967', 'o725', 'p310', 'r157', 'r850', 's121', 's152', 't994', 'u149', 'u946', 'v289', 'v719', 'v764', 'v766', 'v835', 'w193', 'w540', 'x613', 'x930', 'y449']
+
+
+
+['a366', 'a577', 'a788', 'b759', 'c458', 'c580', 'c819', 'c895', 'c927', 'd474', 'f234', 'g107', 'g558', 'h333', 'i386', 'j246', 'k804', 'l490', 'n671', 'n763', 'n923', 'o302', 'o809', 'o973', 'p387', 'p981', 'q132', 'q483', 'q582', 'q610', 'r107', 'r921', 's141', 's187', 'v295', 'v603', 'w167', 'w584', 'w697', 'x264']
+
+
+
+['a203', 'a251', 'a262', 'a275', 'a401', 'a411', 'a444', 'a492', 'a520', 'a644', 'a685', 'a699', 'a818', 'a897', 'a963', 'b128', 'b559', 'b742', 'b879', 'c139', 'c264', 'c282', 'c302', 'c402', 'c559', 'c757', 'c758', 'c766', 'c832', 'd251', 'e213', 'e227', 'e476', 'e584', 'e662', 'f345', 'f545', 'g288', 'g296', 'g316', 'g497', 'g570', 'g791', 'h246', 'i177', 'i334', 'i557', 'i635', 'i738', 'i901', 'j119', 'j296', 'j365', 'j755', 'j913', 'j984', 'j989', 'k210', 'k382', 'k403', 'k483', 'k862', 'k894', 'l471', 'l509', 'l661', 'l700', 'l725', 'l733', 'l897', 'm269', 'm546', 'm550', 'm601', 'm650', 'm957', 'n304', 'n364', 'o287', 'o331', 'o562', 'o795', 'o926', 'p136', 'p189', 'p438', 'q511', 'q597', 'q633', 'q787', 'r554', 'r604', 'r701', 'r811', 'r944', 's185', 's337', 's508', 's565', 's710', 't198', 't451', 't565', 't718', 't724', 'u196', 'u327', 'u364', 'v923', 'v991', 'w151', 'w350', 'w422', 'w575', 'w914', 'x401', 'x402', 'x581', 'x773', 'x822', 'y163', 'y260', 'y478', 'y769', 'y793', 'y865', 'z578', 'z581', 'z795', 'z969']
+
+
+
+     mouse_id drug_regimen     sex  age_months  weight_grams  timepoint  \
+338      w150    CAPOMULIN    Male          23          23.0          0   
+339      w150    CAPOMULIN    Male          23          23.0          5   
+340      w150    CAPOMULIN    Male          23          23.0         10   
+448      w678     RAMICANE  Female           5          24.0          0   
+449      w678     RAMICANE  Female           5          24.0          5   
+...       ...          ...     ...         ...           ...        ...   
+1858     z314     STELASYN  Female          21          28.0          0   
+1859     z314     STELASYN  Female          21          28.0          5   
+1860     z435     PROPRIVA  Female          12          26.0          0   
+1861     z435     PROPRIVA  Female          12          26.0          5   
+1862     z435     PROPRIVA  Female          12          26.0         10   
+
+      tumor_volume_mm3  metastatic_sites  
+338          45.000000                 0  
+339          39.202129                 0  
+340          39.952347                 0  
+448          45.000000                 0  
+449          43.166373                 0  
+...                ...               ...  
+1858         45.000000                 0  
+1859         45.934712                 0  
+1860         45.000000                 0  
+1861         47.115980                 0  
+1862         48.710661                 0  
+
+[90 rows x 8 columns]
+
+
+
+     mouse_id drug_regimen   sex  age_months  weight_grams  timepoint  \
+60       f966    CAPOMULIN  Male          16          17.0          0   
+61       f966    CAPOMULIN  Male          16          17.0          5   
+62       f966    CAPOMULIN  Male          16          17.0         10   
+63       f966    CAPOMULIN  Male          16          17.0         15   
+64       f966    CAPOMULIN  Male          16          17.0         20   
+...       ...          ...   ...         ...           ...        ...   
+1799     x930     NAFTISOL  Male          13          26.0          5   
+1800     x930     NAFTISOL  Male          13          26.0         10   
+1801     x930     NAFTISOL  Male          13          26.0         15   
+1802     x930     NAFTISOL  Male          13          26.0         20   
+1803     x930     NAFTISOL  Male          13          26.0         25   
+
+      tumor_volume_mm3  metastatic_sites  
+60           45.000000                 0  
+61           38.796474                 0  
+62           35.624403                 0  
+63           32.623003                 0  
+64           30.485985                 0  
+...                ...               ...  
+1799         46.078234                 0  
+1800         50.260694                 0  
+1801         51.973769                 0  
+1802         52.556066                 0  
+1803         53.726101                 0  
+
+[175 rows x 8 columns]
+
+
+
+     mouse_id drug_regimen     sex  age_months  weight_grams  timepoint  \
+255      q610     RAMICANE  Female          18          21.0          0   
+256      q610     RAMICANE  Female          18          21.0          5   
+257      q610     RAMICANE  Female          18          21.0         10   
+258      q610     RAMICANE  Female          18          21.0         15   
+259      q610     RAMICANE  Female          18          21.0         20   
+...       ...          ...     ...         ...           ...        ...   
+1748     x264     NAFTISOL  Female          21          27.0         20   
+1749     x264     NAFTISOL  Female          21          27.0         25   
+1750     x264     NAFTISOL  Female          21          27.0         30   
+1751     x264     NAFTISOL  Female          21          27.0         35   
+1752     x264     NAFTISOL  Female          21          27.0         40   
+
+      tumor_volume_mm3  metastatic_sites  
+255          45.000000                 0  
+256          45.629494                 0  
+257          44.991485                 0  
+258          45.889028                 0  
+259          46.585433                 0  
+...                ...               ...  
+1748         53.074270                 1  
+1749         56.891053                 2  
+1750         58.158694                 3  
+1751         61.299608                 4  
+1752         63.283288                 4  
+
+[315 rows x 8 columns]
+
+
+
+     mouse_id drug_regimen   sex  age_months  weight_grams  timepoint  \
+0        k403     RAMICANE  Male          21          16.0          0   
+1        k403     RAMICANE  Male          21          16.0          5   
+2        k403     RAMICANE  Male          21          16.0         10   
+3        k403     RAMICANE  Male          21          16.0         15   
+4        k403     RAMICANE  Male          21          16.0         20   
+...       ...          ...   ...         ...           ...        ...   
+1888     z969     NAFTISOL  Male           9          30.0         25   
+1889     z969     NAFTISOL  Male           9          30.0         30   
+1890     z969     NAFTISOL  Male           9          30.0         35   
+1891     z969     NAFTISOL  Male           9          30.0         40   
+1892     z969     NAFTISOL  Male           9          30.0         45   
+
+      tumor_volume_mm3  metastatic_sites  
+0            45.000000                 0  
+1            38.825898                 0  
+2            35.014271                 1  
+3            34.223992                 1  
+4            32.997729                 1  
+...                ...               ...  
+1888         63.145652                 2  
+1889         65.841013                 3  
+1890         69.176246                 4  
+1891         70.314904                 4  
+1892         73.867845                 4  
+
+[1300 rows x 8 columns]
+
+
+
+   mouse_id drug_regimen  0
+0      a457     KETAPRIL  3
+1      b447     CEFTAMIN  1
+2      c326    INFUBINOL  2
+3      d133    ZONIFEROL  1
+4      d164    ZONIFEROL  3
+5      f278     KETAPRIL  2
+6      f394    ZONIFEROL  2
+7      f932     KETAPRIL  1
+8      h428     KETAPRIL  1
+9      h531     CEFTAMIN  2
+10     i477      PLACEBO  3
+11     l215     PROPRIVA  3
+12     l264     KETAPRIL  3
+13     l558     CEFTAMIN  3
+14     l872      PLACEBO  1
+15     m756    INFUBINOL  2
+16     n482     PROPRIVA  1
+17     n630     PROPRIVA  2
+18     n678     PROPRIVA  3
+19     o523     PROPRIVA  3
+20     o813    INFUBINOL  2
+21     o848     STELASYN  1
+22     q119     KETAPRIL  3
+23     s166      PLACEBO  3
+24     s619     STELASYN  2
+25     t573     CEFTAMIN  1
+26     u153     CEFTAMIN  1
+27     v199     NAFTISOL  1
+28     v339    INFUBINOL  2
+29     v409      PLACEBO  3
+30     v989      PLACEBO  3
+31     w140    ZONIFEROL  2
+32     w150    CAPOMULIN  3
+33     w678     RAMICANE  2
+34     w746     PROPRIVA  2
+35     x111     PROPRIVA  3
+36     x209     PROPRIVA  3
+37     x226     CEFTAMIN  1
+38     x336     NAFTISOL  1
+39     y601     NAFTISOL  2
+40     z234     NAFTISOL  2
+41     z314     STELASYN  2
+42     z435     PROPRIVA  3
+
+
+
+   mouse_id drug_regimen  0
+0      b313    ZONIFEROL  6
+1      b487     CEFTAMIN  6
+2      e291     NAFTISOL  6
+3      f129    ZONIFEROL  4
+4      f436     CEFTAMIN  4
+5      f966    CAPOMULIN  5
+6      f993     NAFTISOL  5
+7      g867     STELASYN  4
+8      i669      PLACEBO  6
+9      j235      PLACEBO  5
+10     k510     STELASYN  5
+11     k603     PROPRIVA  5
+12     k754    ZONIFEROL  5
+13     m133     NAFTISOL  6
+14     m331    ZONIFEROL  4
+15     n967    ZONIFEROL  4
+16     o725     NAFTISOL  4
+17     p310     PROPRIVA  6
+18     r157    CAPOMULIN  4
+19     r850      PLACEBO  4
+20     s121    INFUBINOL  6
+21     s152      PLACEBO  6
+22     t994      PLACEBO  5
+23     u149     CEFTAMIN  6
+24     u946     PROPRIVA  5
+25     v289     KETAPRIL  6
+26     v719    INFUBINOL  5
+27     v764     STELASYN  4
+28     v766    INFUBINOL  4
+29     v835     NAFTISOL  5
+30     w193    INFUBINOL  5
+31     w540     STELASYN  6
+32     x613    ZONIFEROL  4
+33     x930     NAFTISOL  6
+34     y449     RAMICANE  4
+
+
+
+   mouse_id drug_regimen  0
+0      a366     STELASYN  7
+1      a577    INFUBINOL  7
+2      a788    ZONIFEROL  7
+3      b759     CEFTAMIN  7
+4      c458     RAMICANE  7
+5      c580     KETAPRIL  7
+6      c819     KETAPRIL  9
+7      c895    INFUBINOL  7
+8      c927     PROPRIVA  9
+9      d474     KETAPRIL  9
+10     f234     STELASYN  8
+11     g107     KETAPRIL  8
+12     g558     PROPRIVA  9
+13     h333     STELASYN  7
+14     i386    INFUBINOL  9
+15     j246    CAPOMULIN  8
+16     k804    INFUBINOL  8
+17     l490     CEFTAMIN  7
+18     n671    INFUBINOL  7
+19     n763      PLACEBO  9
+20     n923     KETAPRIL  9
+21     o302      PLACEBO  7
+22     o809    INFUBINOL  8
+23     o973     KETAPRIL  9
+24     p387     STELASYN  9
+25     p981     STELASYN  8
+26     q132    INFUBINOL  7
+27     q483     CEFTAMIN  9
+28     q582      PLACEBO  8
+29     q610     RAMICANE  8
+30     r107     PROPRIVA  7
+31     r921     RAMICANE  7
+32     s141     PROPRIVA  7
+33     s187     PROPRIVA  7
+34     v295     NAFTISOL  9
+35     v603     KETAPRIL  8
+36     w167      PLACEBO  8
+37     w584    INFUBINOL  7
+38     w697     STELASYN  8
+39     x264     NAFTISOL  9
+
+
+
+    mouse_id drug_regimen   0
+0       a203    INFUBINOL  10
+1       a251    INFUBINOL  10
+2       a262      PLACEBO  10
+3       a275     CEFTAMIN  10
+4       a401    ZONIFEROL  10
+..       ...          ...  ..
+125     y865     CEFTAMIN  10
+126     z578     RAMICANE  10
+127     z581    INFUBINOL  10
+128     z795     NAFTISOL  10
+129     z969     NAFTISOL  10
+
+[130 rows x 3 columns]
+
+
+
+drug_regimen
+CAPOMULIN    1
+CEFTAMIN     6
+INFUBINOL    4
+KETAPRIL     6
+NAFTISOL     4
+PLACEBO      5
+PROPRIVA     9
+RAMICANE     1
+STELASYN     3
+ZONIFEROL    4
+Name: 1-3 Data Points, dtype: int64
+
+
+
+drug_regimen
+CAPOMULIN    2
+CEFTAMIN     3
+INFUBINOL    4
+KETAPRIL     1
+NAFTISOL     6
+PLACEBO      5
+PROPRIVA     3
+RAMICANE     1
+STELASYN     4
+ZONIFEROL    6
+Name: 4-6 Data Points, dtype: int64
+
+
+
+drug_regimen
+CAPOMULIN    1
+CEFTAMIN     3
+INFUBINOL    8
+KETAPRIL     7
+NAFTISOL     2
+PLACEBO      4
+PROPRIVA     5
+RAMICANE     3
+STELASYN     6
+ZONIFEROL    1
+Name: 7-9 Data Points, dtype: int64
+
+
+
+drug_regimen
+CAPOMULIN    21
+CEFTAMIN     13
+INFUBINOL     9
+KETAPRIL     11
+NAFTISOL     13
+PLACEBO      11
+PROPRIVA      7
+RAMICANE     20
+STELASYN     11
+ZONIFEROL    14
+Name: 10 Data Points, dtype: int64
+
+
+
+              10 Data Points  7-9 Data Points  4-6 Data Points  \
+drug_regimen                                                     
+CAPOMULIN                 21                1                2   
+CEFTAMIN                  13                3                3   
+INFUBINOL                  9                8                4   
+KETAPRIL                  11                7                1   
+NAFTISOL                  13                2                6   
+PLACEBO                   11                4                5   
+PROPRIVA                   7                5                3   
+RAMICANE                  20                3                1   
+STELASYN                  11                6                4   
+ZONIFEROL                 14                1                6   
+
+              1-3 Data Points  
+drug_regimen                   
+CAPOMULIN                   1  
+CEFTAMIN                    6  
+INFUBINOL                   4  
+KETAPRIL                    6  
+NAFTISOL                    4  
+PLACEBO                     5  
+PROPRIVA                    9  
+RAMICANE                    1  
+STELASYN                    3  
+ZONIFEROL                   4  
+
+
+Timepoint: 2024/04/19 21:22:38
+[1mThere should be 2,500 data points in this animal study.[0m
+
+
+Timepoint: 2024/04/19 21:22:38
+[1mThere are 1,880 data points in this animal study.[0m
+
+
+Timepoint: 2024/04/19 21:22:38
+[1mThis animal study is missing 620 data points or 24.8% of the expected total.[0m
+
+
+
+mouse_id
+b128    42.996848
+b742    39.346396
+f966    35.624403
+g288    42.621576
+g316    44.851416
+i557    44.798109
+i738    37.645312
+j119    44.792545
+j246    44.287798
+l509    44.854027
+l897    44.437307
+m601    33.687244
+m957    38.560914
+r157    45.828336
+r554    34.678551
+r944    42.453231
+s185    35.408408
+s710    43.120693
+t565    38.206212
+u364    38.184043
+v923    40.705170
+w150    39.952347
+w914    41.386504
+x401    36.341478
+y793    39.854581
+Name: tumor_volume_mm3, dtype: float64
+
+
+
+mouse_id
+a275    52.044750
+b447    45.000000
+b487    49.673821
+b759    51.587799
+f436    47.258888
+h531    46.392341
+j296    54.886245
+k210    53.305796
+l471    52.537943
+l490    50.524813
+l558    45.809089
+l661    52.899073
+l733    54.097990
+o287    51.462314
+p438    53.707937
+q483    50.239856
+t573    45.000000
+u149    47.963604
+u153    45.000000
+w151    50.711661
+x226    45.000000
+x581    51.571626
+x822    52.978121
+y769    56.680842
+y865    54.767760
+Name: tumor_volume_mm3, dtype: float64
+
+
+
+mouse_id
+a203    55.983272
+a251    55.938620
+a577    50.915007
+a685    50.715255
+c139    59.101988
+c326    40.660673
+c895    52.949465
+e476    56.328955
+f345    51.346139
+i386    55.087724
+k483    56.105484
+k804    52.481069
+m756    46.005182
+n671    54.216064
+o809    50.009999
+o813    45.349665
+q132    49.159749
+s121    49.936698
+v339    45.625056
+v719    51.497054
+v766    49.257180
+w193    48.346550
+w584    51.265440
+y163    55.373730
+z581    53.062175
+Name: tumor_volume_mm3, dtype: float64
+
+
+
+mouse_id
+a457    47.462891
+c580    51.991708
+c819    49.762415
+c832    57.801025
+d474    51.731494
+f278    46.597289
+f932    45.000000
+g107    60.420788
+g497    56.310720
+h246    58.742383
+h428    45.000000
+k382    58.664127
+l264    46.668766
+m550    55.689314
+m650    59.515768
+n923    52.599206
+o331    60.034013
+o973    51.956993
+p189    59.319582
+q119    47.864440
+u327    54.624757
+v289    50.367824
+v603    52.912095
+w422    55.317080
+y260    52.583572
+Name: tumor_volume_mm3, dtype: float64
+
+
+
+mouse_id
+a818    55.900449
+b559    56.349063
+e213    53.919120
+e291    48.939084
+e584    50.865670
+f993    48.185373
+j755    56.776213
+l700    52.484635
+l725    62.311992
+m133    48.084273
+n304    51.612084
+o725    47.544636
+r604    52.419806
+r701    56.006314
+t724    58.527739
+v199    45.000000
+v295    55.731375
+v835    48.965918
+x264    53.074270
+x336    45.000000
+x930    51.117232
+y601    46.737501
+z234    45.564679
+z795    55.613879
+z969    60.522215
+Name: tumor_volume_mm3, dtype: float64
+
+
+
+mouse_id
+a262    58.572588
+a897    55.504513
+c282    54.121387
+c757    54.962526
+c766    55.610745
+e227    58.603922
+i477    46.657385
+i669    48.569617
+j235    48.018788
+l872    45.000000
+n763    49.258126
+o302    51.381489
+o795    63.175918
+q582    49.754308
+q787    51.471561
+r850    47.689001
+s152    54.703312
+s166    47.186788
+t718    54.256644
+t994    52.614163
+v409    46.220796
+v989    48.858135
+w167    55.724323
+x773    50.422067
+y478    57.337913
+Name: tumor_volume_mm3, dtype: float64
+
+
+
+mouse_id
+a699    51.279402
+c927    55.481689
+g558    55.090097
+g570    55.746351
+i635    52.402943
+k603    46.606947
+l215    49.481949
+n482    45.000000
+n630    45.549550
+n678    47.554284
+o523    45.544700
+o562    54.179798
+p310    49.218174
+r107    53.090335
+s141    49.232345
+s187    52.081632
+t198    53.837702
+u946    46.730506
+v991    58.878721
+w350    52.469118
+w746    47.226635
+x111    46.941015
+x209    46.754269
+z435    47.115980
+Name: tumor_volume_mm3, dtype: float64
+
+
+
+mouse_id
+a411    39.988027
+a444    42.893779
+a520    37.286210
+a644    43.240612
+c458    44.454378
+c758    43.860269
+d251    38.491830
+e662    44.335659
+g791    37.869979
+i177    35.451647
+i334    39.728692
+j913    40.014505
+j989    40.531233
+k403    33.231153
+m546    38.298735
+n364    35.947504
+q597    43.573181
+q610    44.995742
+r811    38.847985
+r921    43.527261
+s508    35.660082
+u196    46.264153
+w678    44.083186
+y449    45.438772
+z578    38.160380
+Name: tumor_volume_mm3, dtype: float64
+
+
+
+mouse_id
+a366    55.265582
+a492    54.189211
+a963    51.796769
+b879    55.226712
+c402    56.576604
+f234    49.923955
+g867    47.532075
+h333    50.692604
+i901    56.274800
+j984    55.718435
+k510    47.658250
+k862    57.888573
+m269    63.019443
+o848    45.000000
+p387    56.587617
+p981    50.007890
+s565    57.799900
+s619    45.801134
+t451    53.295616
+v764    47.621593
+w540    47.854606
+w697    53.442678
+x402    51.423244
+z314    45.467356
+Name: tumor_volume_mm3, dtype: float64
+
+
+
+mouse_id
+a401    53.207173
+a788    52.539949
+b313    48.753880
+c264    55.767482
+c302    54.578568
+c559    53.579904
+d133    45.000000
+d164    46.617671
+f129    47.590157
+f394    46.016550
+f545    59.547335
+g296    53.558612
+j365    51.374837
+k754    49.746117
+k894    51.653739
+m331    46.584946
+n967    46.774457
+o926    53.294988
+p136    55.597638
+q511    54.965147
+q633    54.485194
+s337    50.086371
+w140    46.358976
+w575    57.089569
+x613    46.457608
+Name: tumor_volume_mm3, dtype: float64
+
+
+
+mouse_id
+b128    22.0
+b742    21.0
+f966    17.0
+g288    19.0
+g316    22.0
+i557    24.0
+i738    20.0
+j119    23.0
+j246    21.0
+l509    21.0
+l897    19.0
+m601    17.0
+m957    19.0
+r157    25.0
+r554    17.0
+r944    25.0
+s185    17.0
+s710    23.0
+t565    17.0
+u364    17.0
+v923    21.0
+w150    23.0
+w914    21.0
+x401    15.0
+y793    17.0
+Name: weight_grams, dtype: float64
+
+
+
+mouse_id
+a275    28.0
+b447    30.0
+b487    28.0
+b759    25.0
+f436    25.0
+h531    27.0
+j296    30.0
+k210    28.0
+l471    28.0
+l490    26.0
+l558    30.0
+l661    26.0
+l733    30.0
+o287    28.0
+p438    26.0
+q483    26.0
+t573    27.0
+u149    29.0
+u153    25.0
+w151    25.0
+x226    28.0
+x581    28.0
+x822    29.0
+y769    27.0
+y865    26.0
+Name: weight_grams, dtype: float64
+
+
+
+mouse_id
+a203    23.0
+a251    25.0
+a577    25.0
+a685    30.0
+c139    28.0
+c326    25.0
+c895    29.0
+e476    26.0
+f345    26.0
+i386    29.0
+k483    30.0
+k804    29.0
+m756    30.0
+n671    25.0
+o809    25.0
+o813    28.0
+q132    30.0
+s121    26.0
+v339    26.0
+v719    30.0
+v766    27.0
+w193    30.0
+w584    29.0
+y163    27.0
+z581    25.0
+Name: weight_grams, dtype: float64
+
+
+
+mouse_id
+a457    30.0
+c580    25.0
+c819    25.0
+c832    29.0
+d474    27.0
+f278    30.0
+f932    29.0
+g107    29.0
+g497    28.0
+h246    30.0
+h428    27.0
+k382    29.0
+l264    30.0
+m550    28.0
+m650    27.0
+n923    30.0
+o331    30.0
+o973    29.0
+p189    28.0
+q119    30.0
+u327    25.0
+v289    26.0
+v603    30.0
+w422    26.0
+y260    25.0
+Name: weight_grams, dtype: float64
+
+
+
+mouse_id
+a818    28.0
+b559    26.0
+e213    27.0
+e291    29.0
+e584    27.0
+f993    28.0
+j755    27.0
+l700    27.0
+l725    26.0
+m133    26.0
+n304    26.0
+o725    26.0
+r604    30.0
+r701    25.0
+t724    25.0
+v199    29.0
+v295    27.0
+v835    29.0
+x264    27.0
+x336    29.0
+x930    26.0
+y601    25.0
+z234    27.0
+z795    29.0
+z969    30.0
+Name: weight_grams, dtype: float64
+
+
+
+mouse_id
+a262    29.0
+a897    28.0
+c282    27.0
+c757    27.0
+c766    26.0
+e227    30.0
+i477    30.0
+i669    27.0
+j235    30.0
+l872    30.0
+n763    25.0
+o302    29.0
+o795    26.0
+q582    30.0
+q787    27.0
+r850    30.0
+s152    30.0
+s166    27.0
+t718    30.0
+t994    30.0
+v409    25.0
+v989    25.0
+w167    28.0
+x773    30.0
+y478    25.0
+Name: weight_grams, dtype: float64
+
+
+
+mouse_id
+a699    28.0
+c927    26.0
+g558    29.0
+g570    29.0
+i635    26.0
+k603    27.0
+l215    29.0
+n482    29.0
+n630    29.0
+n678    29.0
+o523    25.0
+o562    25.0
+p310    26.0
+r107    28.0
+s141    25.0
+s187    25.0
+t198    26.0
+u946    30.0
+v991    30.0
+w350    26.0
+w746    26.0
+x111    27.0
+x209    29.0
+z435    26.0
+Name: weight_grams, dtype: float64
+
+
+
+mouse_id
+a411    22.0
+a444    25.0
+a520    21.0
+a644    17.0
+c458    20.0
+c758    17.0
+d251    19.0
+e662    24.0
+g791    16.0
+i177    18.0
+i334    20.0
+j913    17.0
+j989    19.0
+k403    16.0
+m546    16.0
+n364    17.0
+q597    25.0
+q610    21.0
+r811    19.0
+r921    25.0
+s508    17.0
+u196    25.0
+w678    24.0
+y449    24.0
+z578    16.0
+Name: weight_grams, dtype: float64
+
+
+
+mouse_id
+a366    29.0
+a492    25.0
+a963    27.0
+b879    26.0
+c402    27.0
+f234    28.0
+g867    25.0
+h333    27.0
+i901    29.0
+j984    30.0
+k510    27.0
+k862    25.0
+m269    28.0
+o848    27.0
+p387    30.0
+p981    29.0
+s565    29.0
+s619    30.0
+t451    29.0
+v764    30.0
+w540    26.0
+w697    30.0
+x402    28.0
+z314    28.0
+Name: weight_grams, dtype: float64
+
+
+
+mouse_id
+a401    25.0
+a788    30.0
+b313    27.0
+c264    27.0
+c302    29.0
+c559    28.0
+d133    30.0
+d164    28.0
+f129    29.0
+f394    30.0
+f545    26.0
+g296    29.0
+j365    28.0
+k754    26.0
+k894    29.0
+m331    26.0
+n967    27.0
+o926    29.0
+p136    28.0
+q511    28.0
+q633    25.0
+s337    27.0
+w140    30.0
+w575    28.0
+x613    29.0
+Name: weight_grams, dtype: float64
+
+
+Timepoint: 2024/04/19 21:22:39
+r-value:     0.7669
+
+
+Timepoint: 2024/04/19 21:22:39
+r-squared:   0.5881
+
+
+
+Timepoint: 2024/04/19 21:22:39
+r-value:     0.0081
+
+
+Timepoint: 2024/04/19 21:22:39
+r-squared:   0.0001
+
+
+
+Timepoint: 2024/04/19 21:22:40
+r-value:     -0.0681
+
+
+Timepoint: 2024/04/19 21:22:40
+r-squared:   0.0046
+
+
+
+Timepoint: 2024/04/19 21:22:40
+r-value:     -0.0055
+
+
+Timepoint: 2024/04/19 21:22:40
+r-squared:   0.0000
+
+
+
+Timepoint: 2024/04/19 21:22:41
+r-value:     -0.1309
+
+
+Timepoint: 2024/04/19 21:22:41
+r-squared:   0.0171
+
+
+
+Timepoint: 2024/04/19 21:22:41
+r-value:     -0.1195
+
+
+Timepoint: 2024/04/19 21:22:41
+r-squared:   0.0143
+
+
+
+Timepoint: 2024/04/19 21:22:42
+r-value:     -0.0030
+
+
+Timepoint: 2024/04/19 21:22:42
+r-squared:   0.0000
+
+
+
+Timepoint: 2024/04/19 21:22:42
+r-value:     0.6917
+
+
+Timepoint: 2024/04/19 21:22:42
+r-squared:   0.4784
+
+
+
+Timepoint: 2024/04/19 21:22:43
+r-value:     0.0623
+
+
+Timepoint: 2024/04/19 21:22:43
+r-squared:   0.0039
+
+
+
+Timepoint: 2024/04/19 21:22:43
+r-value:     -0.3136
+
+
+Timepoint: 2024/04/19 21:22:43
+r-squared:   0.0983
+
+
+
+Timepoint: 2024/04/19 21:22:44
+CAPOMULIN:
+
+
+Timepoint: 2024/04/19 21:22:44
+r-value:     0.7669
+
+
+Timepoint: 2024/04/19 21:22:44
+r-squared:   0.5881
+
+
+
+Timepoint: 2024/04/19 21:22:44
+RAMICANE:
+
+
+Timepoint: 2024/04/19 21:22:44
+r-value:     0.6917
+
+
+Timepoint: 2024/04/19 21:22:44
+r-squared:   0.4784
+
+
+
+
+mouse_id
+a203    23.0
+a251    25.0
+a262    29.0
+a275    28.0
+a366    29.0
+        ... 
+z435    26.0
+z578    16.0
+z581    25.0
+z795    29.0
+z969    30.0
+Name: weight_grams, Length: 248, dtype: float64
+
+
+
+mouse_id
+a203    INFUBINOL
+a251    INFUBINOL
+a262      PLACEBO
+a275     CEFTAMIN
+a366     STELASYN
+          ...    
+z435     PROPRIVA
+z578     RAMICANE
+z581    INFUBINOL
+z795     NAFTISOL
+z969     NAFTISOL
+Name: drug_regimen, Length: 248, dtype: object
+
+
+
+[mouse_id
+b128    22.0
+b742    21.0
+f966    17.0
+g288    19.0
+g316    22.0
+i557    24.0
+i738    20.0
+j119    23.0
+j246    21.0
+l509    21.0
+l897    19.0
+m601    17.0
+m957    19.0
+r157    25.0
+r554    17.0
+r944    25.0
+s185    17.0
+s710    23.0
+t565    17.0
+u364    17.0
+v923    21.0
+w150    23.0
+w914    21.0
+x401    15.0
+y793    17.0
+Name: weight_grams, dtype: float64, mouse_id
+a275    28.0
+b447    30.0
+b487    28.0
+b759    25.0
+f436    25.0
+h531    27.0
+j296    30.0
+k210    28.0
+l471    28.0
+l490    26.0
+l558    30.0
+l661    26.0
+l733    30.0
+o287    28.0
+p438    26.0
+q483    26.0
+t573    27.0
+u149    29.0
+u153    25.0
+w151    25.0
+x226    28.0
+x581    28.0
+x822    29.0
+y769    27.0
+y865    26.0
+Name: weight_grams, dtype: float64, mouse_id
+a203    23.0
+a251    25.0
+a577    25.0
+a685    30.0
+c139    28.0
+c326    25.0
+c895    29.0
+e476    26.0
+f345    26.0
+i386    29.0
+k483    30.0
+k804    29.0
+m756    30.0
+n671    25.0
+o809    25.0
+o813    28.0
+q132    30.0
+s121    26.0
+v339    26.0
+v719    30.0
+v766    27.0
+w193    30.0
+w584    29.0
+y163    27.0
+z581    25.0
+Name: weight_grams, dtype: float64, mouse_id
+a457    30.0
+c580    25.0
+c819    25.0
+c832    29.0
+d474    27.0
+f278    30.0
+f932    29.0
+g107    29.0
+g497    28.0
+h246    30.0
+h428    27.0
+k382    29.0
+l264    30.0
+m550    28.0
+m650    27.0
+n923    30.0
+o331    30.0
+o973    29.0
+p189    28.0
+q119    30.0
+u327    25.0
+v289    26.0
+v603    30.0
+w422    26.0
+y260    25.0
+Name: weight_grams, dtype: float64, mouse_id
+a818    28.0
+b559    26.0
+e213    27.0
+e291    29.0
+e584    27.0
+f993    28.0
+j755    27.0
+l700    27.0
+l725    26.0
+m133    26.0
+n304    26.0
+o725    26.0
+r604    30.0
+r701    25.0
+t724    25.0
+v199    29.0
+v295    27.0
+v835    29.0
+x264    27.0
+x336    29.0
+x930    26.0
+y601    25.0
+z234    27.0
+z795    29.0
+z969    30.0
+Name: weight_grams, dtype: float64, mouse_id
+a262    29.0
+a897    28.0
+c282    27.0
+c757    27.0
+c766    26.0
+e227    30.0
+i477    30.0
+i669    27.0
+j235    30.0
+l872    30.0
+n763    25.0
+o302    29.0
+o795    26.0
+q582    30.0
+q787    27.0
+r850    30.0
+s152    30.0
+s166    27.0
+t718    30.0
+t994    30.0
+v409    25.0
+v989    25.0
+w167    28.0
+x773    30.0
+y478    25.0
+Name: weight_grams, dtype: float64, mouse_id
+a699    28.0
+c927    26.0
+g558    29.0
+g570    29.0
+i635    26.0
+k603    27.0
+l215    29.0
+n482    29.0
+n630    29.0
+n678    29.0
+o523    25.0
+o562    25.0
+p310    26.0
+r107    28.0
+s141    25.0
+s187    25.0
+t198    26.0
+u946    30.0
+v991    30.0
+w350    26.0
+w746    26.0
+x111    27.0
+x209    29.0
+z435    26.0
+Name: weight_grams, dtype: float64, mouse_id
+a411    22.0
+a444    25.0
+a520    21.0
+a644    17.0
+c458    20.0
+c758    17.0
+d251    19.0
+e662    24.0
+g791    16.0
+i177    18.0
+i334    20.0
+j913    17.0
+j989    19.0
+k403    16.0
+m546    16.0
+n364    17.0
+q597    25.0
+q610    21.0
+r811    19.0
+r921    25.0
+s508    17.0
+u196    25.0
+w678    24.0
+y449    24.0
+z578    16.0
+Name: weight_grams, dtype: float64, mouse_id
+a366    29.0
+a492    25.0
+a963    27.0
+b879    26.0
+c402    27.0
+f234    28.0
+g867    25.0
+h333    27.0
+i901    29.0
+j984    30.0
+k510    27.0
+k862    25.0
+m269    28.0
+o848    27.0
+p387    30.0
+p981    29.0
+s565    29.0
+s619    30.0
+t451    29.0
+v764    30.0
+w540    26.0
+w697    30.0
+x402    28.0
+z314    28.0
+Name: weight_grams, dtype: float64, mouse_id
+a401    25.0
+a788    30.0
+b313    27.0
+c264    27.0
+c302    29.0
+c559    28.0
+d133    30.0
+d164    28.0
+f129    29.0
+f394    30.0
+f545    26.0
+g296    29.0
+j365    28.0
+k754    26.0
+k894    29.0
+m331    26.0
+n967    27.0
+o926    29.0
+p136    28.0
+q511    28.0
+q633    25.0
+s337    27.0
+w140    30.0
+w575    28.0
+x613    29.0
+Name: weight_grams, dtype: float64]
+
+
+
+     mouse_id drug_regimen     sex  age_months  weight_grams  timepoint  \
+10       s185    CAPOMULIN  Female           3          17.0          0   
+11       s185    CAPOMULIN  Female           3          17.0          5   
+12       s185    CAPOMULIN  Female           3          17.0         10   
+13       s185    CAPOMULIN  Female           3          17.0         15   
+14       s185    CAPOMULIN  Female           3          17.0         20   
+...       ...          ...     ...         ...           ...        ...   
+440      i557    CAPOMULIN  Female           1          24.0         45   
+1452     r157    CAPOMULIN    Male          22          25.0          0   
+1453     r157    CAPOMULIN    Male          22          25.0          5   
+1454     r157    CAPOMULIN    Male          22          25.0         10   
+1455     r157    CAPOMULIN    Male          22          25.0         15   
+
+      tumor_volume_mm3  metastatic_sites  
+10           45.000000                 0  
+11           43.878496                 0  
+12           37.614948                 0  
+13           38.177232                 0  
+14           36.866876                 0  
+...                ...               ...  
+440          47.685963                 1  
+1452         45.000000                 0  
+1453         45.597064                 0  
+1454         46.059608                 0  
+1455         46.539206                 0  
+
+[230 rows x 8 columns]
+
+
+
+     mouse_id drug_regimen     sex  age_months  weight_grams  timepoint  \
+484      a275     CEFTAMIN  Female          20          28.0          0   
+485      a275     CEFTAMIN  Female          20          28.0          5   
+486      a275     CEFTAMIN  Female          20          28.0         10   
+487      a275     CEFTAMIN  Female          20          28.0         15   
+488      a275     CEFTAMIN  Female          20          28.0         20   
+...       ...          ...     ...         ...           ...        ...   
+1851     y865     CEFTAMIN    Male          23          26.0         25   
+1852     y865     CEFTAMIN    Male          23          26.0         30   
+1853     y865     CEFTAMIN    Male          23          26.0         35   
+1854     y865     CEFTAMIN    Male          23          26.0         40   
+1855     y865     CEFTAMIN    Male          23          26.0         45   
+
+      tumor_volume_mm3  metastatic_sites  
+484          45.000000                 0  
+485          46.795257                 0  
+486          47.371343                 0  
+487          49.734404                 0  
+488          50.513437                 1  
+...                ...               ...  
+1851         57.173538                 2  
+1852         59.033275                 3  
+1853         61.153140                 3  
+1854         63.469549                 3  
+1855         64.729837                 3  
+
+[178 rows x 8 columns]
+
+
+
+     mouse_id drug_regimen     sex  age_months  weight_grams  timepoint  \
+454      a203    INFUBINOL  Female          20          23.0          0   
+455      a203    INFUBINOL  Female          20          23.0          5   
+456      a203    INFUBINOL  Female          20          23.0         10   
+457      a203    INFUBINOL  Female          20          23.0         15   
+458      a203    INFUBINOL  Female          20          23.0         20   
+...       ...          ...     ...         ...           ...        ...   
+1868     z581    INFUBINOL  Female          24          25.0         25   
+1869     z581    INFUBINOL  Female          24          25.0         30   
+1870     z581    INFUBINOL  Female          24          25.0         35   
+1871     z581    INFUBINOL  Female          24          25.0         40   
+1872     z581    INFUBINOL  Female          24          25.0         45   
+
+      tumor_volume_mm3  metastatic_sites  
+454          45.000000                 0  
+455          48.508468                 0  
+456          51.852437                 1  
+457          52.777870                 1  
+458          55.173336                 1  
+...                ...               ...  
+1868         54.316407                 2  
+1869         56.286750                 2  
+1870         58.628399                 3  
+1871         60.053740                 3  
+1872         62.754451                 3  
+
+[178 rows x 8 columns]
+
+
+
+     mouse_id drug_regimen     sex  age_months  weight_grams  timepoint  \
+511      a457     KETAPRIL  Female          11          30.0          0   
+512      a457     KETAPRIL  Female          11          30.0          5   
+513      a457     KETAPRIL  Female          11          30.0         10   
+690      c580     KETAPRIL    Male          22          25.0          0   
+691      c580     KETAPRIL    Male          22          25.0          5   
+...       ...          ...     ...         ...           ...        ...   
+1819     y260     KETAPRIL  Female           7          25.0         25   
+1820     y260     KETAPRIL  Female           7          25.0         30   
+1821     y260     KETAPRIL  Female           7          25.0         35   
+1822     y260     KETAPRIL  Female           7          25.0         40   
+1823     y260     KETAPRIL  Female           7          25.0         45   
+
+      tumor_volume_mm3  metastatic_sites  
+511          45.000000                 0  
+512          47.462891                 0  
+513          49.783419                 0  
+690          45.000000                 0  
+691          46.628455                 0  
+...                ...               ...  
+1819         54.437562                 4  
+1820         58.582676                 4  
+1821         59.603558                 4  
+1822         60.914176                 4  
+1823         62.909441                 4  
+
+[188 rows x 8 columns]
+
+
+
+     mouse_id drug_regimen     sex  age_months  weight_grams  timepoint  \
+558      a818     NAFTISOL  Female          12          28.0          0   
+559      a818     NAFTISOL  Female          12          28.0          5   
+560      a818     NAFTISOL  Female          12          28.0         10   
+561      a818     NAFTISOL  Female          12          28.0         15   
+562      a818     NAFTISOL  Female          12          28.0         20   
+...       ...          ...     ...         ...           ...        ...   
+1888     z969     NAFTISOL    Male           9          30.0         25   
+1889     z969     NAFTISOL    Male           9          30.0         30   
+1890     z969     NAFTISOL    Male           9          30.0         35   
+1891     z969     NAFTISOL    Male           9          30.0         40   
+1892     z969     NAFTISOL    Male           9          30.0         45   
+
+      tumor_volume_mm3  metastatic_sites  
+558          45.000000                 0  
+559          45.696709                 0  
+560          49.790919                 0  
+561          51.227566                 0  
+562          54.834624                 0  
+...                ...               ...  
+1888         63.145652                 2  
+1889         65.841013                 3  
+1890         69.176246                 4  
+1891         70.314904                 4  
+1892         73.867845                 4  
+
+[186 rows x 8 columns]
+
+
+
+     mouse_id drug_regimen     sex  age_months  weight_grams  timepoint  \
+474      a262      PLACEBO  Female          17          29.0          0   
+475      a262      PLACEBO  Female          17          29.0          5   
+476      a262      PLACEBO  Female          17          29.0         10   
+477      a262      PLACEBO  Female          17          29.0         15   
+478      a262      PLACEBO  Female          17          29.0         20   
+...       ...          ...     ...         ...           ...        ...   
+1829     y478      PLACEBO  Female           3          25.0         25   
+1830     y478      PLACEBO  Female           3          25.0         30   
+1831     y478      PLACEBO  Female           3          25.0         35   
+1832     y478      PLACEBO  Female           3          25.0         40   
+1833     y478      PLACEBO  Female           3          25.0         45   
+
+      tumor_volume_mm3  metastatic_sites  
+474          45.000000                 0  
+475          48.717568                 1  
+476          49.595181                 1  
+477          53.827974                 2  
+478          57.013313                 2  
+...                ...               ...  
+1829         57.826976                 1  
+1830         59.374615                 1  
+1831         61.888027                 1  
+1832         65.971120                 1  
+1833         66.842635                 1  
+
+[181 rows x 8 columns]
+
+
+
+     mouse_id drug_regimen     sex  age_months  weight_grams  timepoint  \
+541      a699     PROPRIVA  Female           5          28.0          0   
+542      a699     PROPRIVA  Female           5          28.0          5   
+543      a699     PROPRIVA  Female           5          28.0         10   
+544      a699     PROPRIVA  Female           5          28.0         15   
+545      a699     PROPRIVA  Female           5          28.0         20   
+...       ...          ...     ...         ...           ...        ...   
+1741     x209     PROPRIVA  Female           7          29.0          5   
+1742     x209     PROPRIVA  Female           7          29.0         10   
+1860     z435     PROPRIVA  Female          12          26.0          0   
+1861     z435     PROPRIVA  Female          12          26.0          5   
+1862     z435     PROPRIVA  Female          12          26.0         10   
+
+      tumor_volume_mm3  metastatic_sites  
+541          45.000000                 0  
+542          46.553090                 0  
+543          47.867376                 0  
+544          49.530401                 0  
+545          50.712423                 0  
+...                ...               ...  
+1741         46.754269                 0  
+1742         48.929895                 0  
+1860         45.000000                 0  
+1861         47.115980                 0  
+1862         48.710661                 0  
+
+[148 rows x 8 columns]
+
+
+
+    mouse_id drug_regimen     sex  age_months  weight_grams  timepoint  \
+0       k403     RAMICANE    Male          21          16.0          0   
+1       k403     RAMICANE    Male          21          16.0          5   
+2       k403     RAMICANE    Male          21          16.0         10   
+3       k403     RAMICANE    Male          21          16.0         15   
+4       k403     RAMICANE    Male          21          16.0         20   
+..       ...          ...     ...         ...           ...        ...   
+449     w678     RAMICANE  Female           5          24.0          5   
+450     y449     RAMICANE    Male          19          24.0          0   
+451     y449     RAMICANE    Male          19          24.0          5   
+452     y449     RAMICANE    Male          19          24.0         10   
+453     y449     RAMICANE    Male          19          24.0         15   
+
+     tumor_volume_mm3  metastatic_sites  
+0           45.000000                 0  
+1           38.825898                 0  
+2           35.014271                 1  
+3           34.223992                 1  
+4           32.997729                 1  
+..                ...               ...  
+449         43.166373                 0  
+450         45.000000                 0  
+451         45.877545                 0  
+452         46.378092                 0  
+453         44.183451                 0  
+
+[228 rows x 8 columns]
+
+
+
+     mouse_id drug_regimen     sex  age_months  weight_grams  timepoint  \
+494      a366     STELASYN  Female          16          29.0          0   
+495      a366     STELASYN  Female          16          29.0          5   
+496      a366     STELASYN  Female          16          29.0         10   
+497      a366     STELASYN  Female          16          29.0         15   
+498      a366     STELASYN  Female          16          29.0         20   
+...       ...          ...     ...         ...           ...        ...   
+1761     x402     STELASYN    Male          21          28.0         35   
+1762     x402     STELASYN    Male          21          28.0         40   
+1763     x402     STELASYN    Male          21          28.0         45   
+1858     z314     STELASYN  Female          21          28.0          0   
+1859     z314     STELASYN  Female          21          28.0          5   
+
+      tumor_volume_mm3  metastatic_sites  
+494          45.000000                 0  
+495          48.951368                 0  
+496          53.523990                 0  
+497          55.265582                 0  
+498          57.285987                 0  
+...                ...               ...  
+1761         55.240962                 3  
+1762         56.691723                 3  
+1763         61.619606                 3  
+1858         45.000000                 0  
+1859         45.934712                 0  
+
+[181 rows x 8 columns]
+
+
+
+     mouse_id drug_regimen     sex  age_months  weight_grams  timepoint  \
+501      a401    ZONIFEROL  Female           8          25.0          0   
+502      a401    ZONIFEROL  Female           8          25.0          5   
+503      a401    ZONIFEROL  Female           8          25.0         10   
+504      a401    ZONIFEROL  Female           8          25.0         15   
+505      a401    ZONIFEROL  Female           8          25.0         20   
+...       ...          ...     ...         ...           ...        ...   
+1719     w575    ZONIFEROL  Female          16          28.0         45   
+1774     x613    ZONIFEROL  Female           2          29.0          0   
+1775     x613    ZONIFEROL  Female           2          29.0          5   
+1776     x613    ZONIFEROL  Female           2          29.0         10   
+1777     x613    ZONIFEROL  Female           2          29.0         15   
+
+      tumor_volume_mm3  metastatic_sites  
+501          45.000000                 0  
+502          46.111986                 0  
+503          47.725937                 1  
+504          49.934725                 1  
+505          52.204511                 2  
+...                ...               ...  
+1719         68.401286                 3  
+1774         45.000000                 0  
+1775         46.097041                 0  
+1776         46.818176                 0  
+1777         48.077646                 0  
+
+[182 rows x 8 columns]
+
+
+
+sex
+Male      958
+Female    922
+Name: count, dtype: int64
+

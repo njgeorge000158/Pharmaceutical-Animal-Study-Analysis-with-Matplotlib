@@ -12,7 +12,7 @@ Over the course of 45 days, this study analyzes the effects of a placebo and nin
 
 <img width="1105" alt="5_2_1_last_timepoint" src="https://github.com/njgeorge000158/Pharmaceutical-Animal-Study-Analysis-with-Matplotlib/assets/137228821/fa16ba57-61f4-4ccf-97cb-826a4aa84257">
 
-<img width="1105" alt="6_4_1_drug_treatment_regimen_by_data_points_per_mouse" src="https://github.com/njgeorge000158/Pharmaceutical-Animal-Study-Analysis-with-Matplotlib/assets/137228821/b5839887-ce17-49dd-af77-0fdf672aa6f9">
+<img width="3101" height="2041" alt="pymaceuticalsFigure641DrugTreatmentRegimenbyDataPointsPerMouse" src="https://github.com/user-attachments/assets/97f9db00-209d-480b-8ff8-7add9ca65636" />
 
 A superficial review yields some interesting observations concerning the efficacy of the top four drugs.  Except for Ramicane with its symmetrical tumor volume distribution, all the treatment regimens have skewed distributions towards the low end indicated by a difference between the median and mean below.  Moreover, Ramicane and Capomulin have the narrowest distributions while Ceftamin’s is the widest, about as wide as the placebo’s, followed by Infubinol.  Generally, the narrower distributions with their lower variances infer consistency in outcomes.  On top of that, Ramicane and Capomulin have the lowest median tumor volumes; Ceftamin and Infubinol have the same median, which is noticeably higher and comparable to the placebo’s value.  What’s more, Capomulin’s mouse weight and tumor volume metrics have a very strong relationship evidenced by a 0.842 linear correlation.
 

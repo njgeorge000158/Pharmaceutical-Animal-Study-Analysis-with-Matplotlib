@@ -6,11 +6,11 @@ __pycache__/
 # C extensions
 *.so
 
+dtypesx.py
 logx.py
 mathx.py
 matplotlibx.py
 pandasx.py
-timex.py
 
 # Distribution / packaging
 .Python

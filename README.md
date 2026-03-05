@@ -57,8 +57,6 @@ I recommend that the study be repeated under the following conditions:
 - **Standardized subject weights:** Mice across all groups should be weight-matched at enrollment to eliminate body weight as a confounding variable and enable cleaner cross-group comparisons.
 - **Real-time data oversight:** Clinical trial managers should review data immediately after collection at each timepoint, enabling the prompt identification and resolution of anomalies before they propagate through the dataset.
 
----
-
 ## **Future Analytical Opportunities**
 
 Once a valid and well-controlled study is available, several promising analytical directions become possible. Cost-effectiveness analysis — evaluating each treatment's therapeutic impact per dollar spent — would allow management to make more informed investment decisions. Additionally, the strong correlation observed between mouse weight and tumor volume under Capomulin suggests that weight-adjusted dosage optimization may be a productive area of investigation, both for Capomulin and for any other SCC treatment moving forward. These analyses, grounded in reliable data, could meaningfully advance the company's drug development strategy.

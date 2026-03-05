@@ -12,6 +12,8 @@
 
 This analysis examines the effects of a placebo and nine drug treatment regimens on tumor development in mice over a 45-day period. The study population consisted of 248 mice diagnosed with squamous cell carcinoma (SCC), a commonly occurring form of skin cancer. Based on preliminary results, four treatments emerged as the most promising candidates: Ceftamin, Infubinol, Ramicane, and Capomulin — the latter being the company's primary drug of interest. A central objective of this analysis is to evaluate Capomulin's performance relative to the other leading candidates.
 
+---
+
 <img width="1108" alt="4_2_1_tumor_volume_by_drug_regimen" src="https://github.com/njgeorge000158/Pharmaceutical-Animal-Study-Analysis-with-Matplotlib/assets/137228821/c0c6add1-413c-4efc-88a4-6fb00e01fee7">
 
 <img width="1105" alt="5_2_1_last_timepoint" src="https://github.com/njgeorge000158/Pharmaceutical-Animal-Study-Analysis-with-Matplotlib/assets/137228821/fa16ba57-61f4-4ccf-97cb-826a4aa84257">
@@ -29,6 +31,8 @@ A comparative review of the four leading regimens reveals meaningful differences
 Ramicane stands apart with a symmetrical tumor volume distribution — the only candidate among the four to exhibit this property. All other regimens, including Capomulin, Ceftamin, and Infubinol, display distributions skewed toward lower tumor volumes, as evidenced by their mean values falling below their respective medians. Ramicane and Capomulin also share the narrowest distributions and lowest variances among the four, suggesting greater consistency and predictability in treatment outcomes. By contrast, Ceftamin exhibits the widest distribution — comparable in spread to the placebo — followed by Infubinol, indicating far less reliable efficacy.
 
 Median tumor volumes reinforce this hierarchy. Ramicane and Capomulin achieve the lowest median tumor volumes, while Ceftamin and Infubinol share a notably higher median comparable to that of the placebo group — raising serious questions about whether either drug produces any meaningful therapeutic effect. Further supporting Capomulin's promise, mouse weight and tumor volume under this regimen exhibit a strong positive linear correlation of 0.842, suggesting that body weight may be a meaningful factor in treatment response and a useful variable for dosage optimization.
+
+---
 
 <img width="1106" alt="7_4_1_mouse_weight_distributions_per_treatment" src="https://github.com/njgeorge000158/Pharmaceutical-Animal-Study-Analysis-with-Matplotlib/assets/137228821/da890977-662c-4780-bb14-420e630fe224">
 

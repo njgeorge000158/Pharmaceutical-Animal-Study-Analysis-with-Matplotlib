@@ -2,11 +2,13 @@
 
 ----
 
-# Pymaceuticals Animal Study Analysis
+# **Pharmaceutical Study Analysis: Evaluating Drug Efficacy in the Treatment of Squamous Cell Carcinoma**
 
 ----
 
-Over the course of 45 days, this study analyzes the effects of a placebo and nine drug treatment regimens on the tumor development of 248 mice suffering from a commonly occurring form of skin cancer, squamous cell carcinoma (SCC).  From the initial results, the most promising treatments include Ceftamin, Infubinol, Ramicane, and this company’s drug of interest, Capomulin.  Company management is particularly interested in comparing the performance of Capomulin against the other drug candidates.
+**Study Overview**
+
+This analysis examines the effects of a placebo and nine drug treatment regimens on tumor development in mice over a 45-day period. The study population consisted of 248 mice diagnosed with squamous cell carcinoma (SCC), a commonly occurring form of skin cancer. Based on preliminary results, four treatments emerged as the most promising candidates: Ceftamin, Infubinol, Ramicane, and Capomulin — the latter being the company's primary drug of interest. A central objective of this analysis is to evaluate Capomulin's performance relative to the other leading candidates.
 
 <img width="1108" alt="4_2_1_tumor_volume_by_drug_regimen" src="https://github.com/njgeorge000158/Pharmaceutical-Animal-Study-Analysis-with-Matplotlib/assets/137228821/c0c6add1-413c-4efc-88a4-6fb00e01fee7">
 
@@ -14,15 +16,42 @@ Over the course of 45 days, this study analyzes the effects of a placebo and nin
 
 <img width="3101" height="2041" alt="pymaceuticalsFigure641DrugTreatmentRegimenbyDataPointsPerMouse" src="https://github.com/user-attachments/assets/97f9db00-209d-480b-8ff8-7add9ca65636" />
 
-A superficial review yields some interesting observations concerning the efficacy of the top four drugs.  Except for Ramicane with its symmetrical tumor volume distribution, all the treatment regimens have skewed distributions towards the low end indicated by a difference between the median and mean below.  Moreover, Ramicane and Capomulin have the narrowest distributions while Ceftamin’s is the widest, about as wide as the placebo’s, followed by Infubinol.  Generally, the narrower distributions with their lower variances infer consistency in outcomes.  On top of that, Ramicane and Capomulin have the lowest median tumor volumes; Ceftamin and Infubinol have the same median, which is noticeably higher and comparable to the placebo’s value.  What’s more, Capomulin’s mouse weight and tumor volume metrics have a very strong relationship evidenced by a 0.842 linear correlation.
+**Efficacy of the Top Four Treatments**
+
+A comparative review of the four leading regimens reveals meaningful differences in both tumor volume distributions and treatment consistency.
+
+Ramicane stands apart with a symmetrical tumor volume distribution — the only candidate among the four to exhibit this property. All other regimens, including Capomulin, Ceftamin, and Infubinol, display distributions skewed toward lower tumor volumes, as evidenced by their mean values falling below their respective medians. Ramicane and Capomulin also share the narrowest distributions and lowest variances among the four, suggesting greater consistency and predictability in treatment outcomes. By contrast, Ceftamin exhibits the widest distribution — comparable in spread to the placebo — followed by Infubinol, indicating far less reliable efficacy.
+
+Median tumor volumes reinforce this hierarchy. Ramicane and Capomulin achieve the lowest median tumor volumes, while Ceftamin and Infubinol share a notably higher median comparable to that of the placebo group — raising serious questions about whether either drug produces any meaningful therapeutic effect. Further supporting Capomulin's promise, mouse weight and tumor volume under this regimen exhibit a strong positive linear correlation of 0.842, suggesting that body weight may be a meaningful factor in treatment response and a useful variable for dosage optimization.
 
 <img width="1106" alt="7_4_1_mouse_weight_distributions_per_treatment" src="https://github.com/njgeorge000158/Pharmaceutical-Animal-Study-Analysis-with-Matplotlib/assets/137228821/da890977-662c-4780-bb14-420e630fe224">
 
 <img width="1106" alt="7_3_11_tumor_volumes_vs_mouse_weights" src="https://github.com/njgeorge000158/Pharmaceutical-Animal-Study-Analysis-with-Matplotlib/assets/137228821/679724d1-bcf5-4e37-afed-261f0687b70f">
 
-Unfortunately, upon closer examination, there are serious anomalies in data collection and quality control.  For instance, Infubinol’s distribution has a single low outlier: inexplicably, one of only two data points from a single mouse in a study where each mouse should have ten.  From this discovery, further investigation reveals that Ramicane and Capomulin have 22-29% more data points than the other treatment regimens except for Propriva where the deviation grows to 55%.  The origin of this discrepancy is data points per mouse: each candidate has about 25 mice for its trial, however, unlike the others who have fewer – in some cases, appreciably fewer – Ramicane’s and Capomulin’s mice overwhelmingly have the maximum number of data points, ten.  If we assume that each trial has 25 mice with ten data points, then the total should be 2,500 not 1,880: hence, the study is missing 620 data points or 24.8% of its expected total.  In addition, the original number of mice was 249, but one mouse had duplicate timepoints with incredulously different tumor volumes.
+**Data Quality and Integrity Concerns**
 
-Is this situation a product of poor administration or a deliberate attempt to manipulate results in favor of certain unmerited treatments?  Ostensibly, Ramicane is the most promising drug with Capomulin a close second, and neither Ceftamin nor Infubinol have any discernable effect on decreasing tumor volume.  In the future, this study should be invalidated due to asymmetrical data collection, suspicious inconsistencies, and insufficient sample spaces.  Therefore, I recommend another study of these treatments where each mouse uniformly provides the same quantity of data points for analysis, the number of mice per trial increases, at least, by an order of magnitude, the weight of each mouse in the study is approximately the same, and clinical trial managers review data closely immediately after collection.  Once information based on a valid and accurate study is forthcoming and available to management, the company can then use drug cost to determine each treatment’s level of effectiveness per dollar spent and examine the impact of varying the dosage of Capomulin, or any other treatment for SCC, based on a subject’s weight.
+Closer examination of the dataset reveals significant anomalies that undermine the study's validity and call its findings into question.
+
+The first irregularity involves Infubinol, whose tumor volume distribution contains a single low outlier traceable to one mouse that contributed only two of the expected ten data points. This isolated case prompted a broader audit of data completeness across all treatment groups, which uncovered a systemic problem. Ramicane and Capomulin have 22–29% more data points than most other regimens, with the disparity reaching 55% in the case of Propriva. The root cause is uneven data collection at the mouse level: while each trial enrolled approximately 25 mice, only Ramicane's and Capomulin's subjects predominantly contributed the full complement of ten data points. Mice in other treatment groups contributed substantially fewer, in some cases far fewer.
+
+The numerical consequences of this imbalance are significant. Assuming a complete study of 25 mice per regimen at ten data points each, the expected total is 2,500 data points. The actual count is 1,880 — leaving the study 620 data points short, or 24.8% below its expected total. Compounding these concerns, the original study population was recorded as 249 mice, but one subject was found to have duplicate timepoints with implausibly divergent tumor volumes. That mouse was removed, reducing the population to 248 — but its presence raises further questions about the rigor of data collection and oversight.
+
+Taken together, these irregularities present a troubling picture. Whether the result of administrative negligence or a deliberate effort to skew results in favor of certain treatments, the asymmetry in data collection systematically advantages Ramicane and Capomulin while disadvantaging the remaining regimens. No meaningful efficacy comparison can be made under these conditions.
+
+**Study Validity and Recommendations**
+
+Based on the evidence, this study should be invalidated. The combination of asymmetrical data collection, suspicious inconsistencies, insufficient per-treatment sample sizes, and inadequate quality control renders its findings unreliable. Ostensibly, Ramicane appears to be the most effective treatment, with Capomulin a close second — but these conclusions cannot be accepted with confidence given the integrity issues identified. Ceftamin and Infubinol, meanwhile, show no discernible reduction in tumor volume beyond placebo levels, though even this conclusion is difficult to state definitively given the compromised data.
+
+I recommend that the study be repeated under the following conditions:
+
+- **Uniform data collection:** Each mouse must contribute an equal number of data points throughout the trial, ensuring symmetrical and comparable datasets across all treatment groups.
+- **Larger sample sizes:** The number of mice per treatment group should be increased by at least one order of magnitude to provide statistically robust sample spaces.
+- **Standardized subject weights:** Mice across all groups should be weight-matched at enrollment to eliminate body weight as a confounding variable and enable cleaner cross-group comparisons.
+- **Real-time data oversight:** Clinical trial managers should review data immediately after collection at each timepoint, enabling the prompt identification and resolution of anomalies before they propagate through the dataset.
+
+**Future Analytical Opportunities**
+
+Once a valid and well-controlled study is available, several promising analytical directions become possible. Cost-effectiveness analysis — evaluating each treatment's therapeutic impact per dollar spent — would allow management to make more informed investment decisions. Additionally, the strong correlation observed between mouse weight and tumor volume under Capomulin suggests that weight-adjusted dosage optimization may be a productive area of investigation, both for Capomulin and for any other SCC treatment moving forward. These analyses, grounded in reliable data, could meaningfully advance the company's drug development strategy.
 
 ----
 

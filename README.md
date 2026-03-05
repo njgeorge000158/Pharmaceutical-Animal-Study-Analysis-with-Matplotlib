@@ -8,8 +8,6 @@
 
 ## **Study Overview**
 
----
-
 This analysis examines the effects of a placebo and nine drug treatment regimens on tumor development in mice over a 45-day period. The study population consisted of 248 mice diagnosed with squamous cell carcinoma (SCC), a commonly occurring form of skin cancer. Based on preliminary results, four treatments emerged as the most promising candidates: Ceftamin, Infubinol, Ramicane, and Capomulin — the latter being the company's primary drug of interest. A central objective of this analysis is to evaluate Capomulin's performance relative to the other leading candidates.
 
 ---
@@ -19,8 +17,6 @@ This analysis examines the effects of a placebo and nine drug treatment regimens
 ---
 
 ## **Efficacy of the Top Four Treatments**
-
----
 
 A comparative review of the four leading regimens reveals meaningful differences in both tumor volume distributions and treatment consistency.
 
@@ -42,8 +38,6 @@ Median tumor volumes reinforce this hierarchy. Ramicane and Capomulin achieve th
 
 ## **Data Quality and Integrity Concerns**
 
----
-
 Closer examination of the dataset reveals significant anomalies that undermine the study's validity and call its findings into question.
 
 The first irregularity involves Infubinol, whose tumor volume distribution contains a single low outlier traceable to one mouse that contributed only two of the expected ten data points. This isolated case prompted a broader audit of data completeness across all treatment groups, which uncovered a systemic problem. Ramicane and Capomulin have 22–29% more data points than most other regimens, with the disparity reaching 55% in the case of Propriva. The root cause is uneven data collection at the mouse level: while each trial enrolled approximately 25 mice, only Ramicane's and Capomulin's subjects predominantly contributed the full complement of ten data points. Mice in other treatment groups contributed substantially fewer, in some cases far fewer.
@@ -55,8 +49,6 @@ Taken together, these irregularities present a troubling picture. Whether the re
 ---
 
 ## **Study Validity and Recommendations**
-
----
 
 Based on the evidence, this study should be invalidated. The combination of asymmetrical data collection, suspicious inconsistencies, insufficient per-treatment sample sizes, and inadequate quality control renders its findings unreliable. Ostensibly, Ramicane appears to be the most effective treatment, with Capomulin a close second — but these conclusions cannot be accepted with confidence given the integrity issues identified. Ceftamin and Infubinol, meanwhile, show no discernible reduction in tumor volume beyond placebo levels, though even this conclusion is difficult to state definitively given the compromised data.
 
@@ -70,8 +62,6 @@ I recommend that the study be repeated under the following conditions:
 ---
 
 ## **Future Analytical Opportunities**
-
----
 
 Once a valid and well-controlled study is available, several promising analytical directions become possible. Cost-effectiveness analysis — evaluating each treatment's therapeutic impact per dollar spent — would allow management to make more informed investment decisions. Additionally, the strong correlation observed between mouse weight and tumor volume under Capomulin suggests that weight-adjusted dosage optimization may be a productive area of investigation, both for Capomulin and for any other SCC treatment moving forward. These analyses, grounded in reliable data, could meaningfully advance the company's drug development strategy.
 

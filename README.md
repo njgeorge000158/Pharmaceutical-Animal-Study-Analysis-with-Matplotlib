@@ -6,7 +6,7 @@
 
 ----
 
-**Study Overview**
+## **Study Overview**
 
 This analysis examines the effects of a placebo and nine drug treatment regimens on tumor development in mice over a 45-day period. The study population consisted of 248 mice diagnosed with squamous cell carcinoma (SCC), a commonly occurring form of skin cancer. Based on preliminary results, four treatments emerged as the most promising candidates: Ceftamin, Infubinol, Ramicane, and Capomulin — the latter being the company's primary drug of interest. A central objective of this analysis is to evaluate Capomulin's performance relative to the other leading candidates.
 

@@ -8,6 +8,8 @@
 
 ## **Study Overview**
 
+---
+
 This analysis examines the effects of a placebo and nine drug treatment regimens on tumor development in mice over a 45-day period. The study population consisted of 248 mice diagnosed with squamous cell carcinoma (SCC), a commonly occurring form of skin cancer. Based on preliminary results, four treatments emerged as the most promising candidates: Ceftamin, Infubinol, Ramicane, and Capomulin — the latter being the company's primary drug of interest. A central objective of this analysis is to evaluate Capomulin's performance relative to the other leading candidates.
 
 <img width="1108" alt="4_2_1_tumor_volume_by_drug_regimen" src="https://github.com/njgeorge000158/Pharmaceutical-Animal-Study-Analysis-with-Matplotlib/assets/137228821/c0c6add1-413c-4efc-88a4-6fb00e01fee7">
@@ -16,7 +18,11 @@ This analysis examines the effects of a placebo and nine drug treatment regimens
 
 <img width="3101" height="2041" alt="pymaceuticalsFigure641DrugTreatmentRegimenbyDataPointsPerMouse" src="https://github.com/user-attachments/assets/97f9db00-209d-480b-8ff8-7add9ca65636" />
 
-**Efficacy of the Top Four Treatments**
+---
+
+## **Efficacy of the Top Four Treatments**
+
+---
 
 A comparative review of the four leading regimens reveals meaningful differences in both tumor volume distributions and treatment consistency.
 
@@ -28,7 +34,11 @@ Median tumor volumes reinforce this hierarchy. Ramicane and Capomulin achieve th
 
 <img width="1106" alt="7_3_11_tumor_volumes_vs_mouse_weights" src="https://github.com/njgeorge000158/Pharmaceutical-Animal-Study-Analysis-with-Matplotlib/assets/137228821/679724d1-bcf5-4e37-afed-261f0687b70f">
 
-**Data Quality and Integrity Concerns**
+---
+
+## **Data Quality and Integrity Concerns**
+
+---
 
 Closer examination of the dataset reveals significant anomalies that undermine the study's validity and call its findings into question.
 
@@ -38,7 +48,11 @@ The numerical consequences of this imbalance are significant. Assuming a complet
 
 Taken together, these irregularities present a troubling picture. Whether the result of administrative negligence or a deliberate effort to skew results in favor of certain treatments, the asymmetry in data collection systematically advantages Ramicane and Capomulin while disadvantaging the remaining regimens. No meaningful efficacy comparison can be made under these conditions.
 
-**Study Validity and Recommendations**
+---
+
+## **Study Validity and Recommendations**
+
+---
 
 Based on the evidence, this study should be invalidated. The combination of asymmetrical data collection, suspicious inconsistencies, insufficient per-treatment sample sizes, and inadequate quality control renders its findings unreliable. Ostensibly, Ramicane appears to be the most effective treatment, with Capomulin a close second — but these conclusions cannot be accepted with confidence given the integrity issues identified. Ceftamin and Infubinol, meanwhile, show no discernible reduction in tumor volume beyond placebo levels, though even this conclusion is difficult to state definitively given the compromised data.
 
@@ -49,7 +63,11 @@ I recommend that the study be repeated under the following conditions:
 - **Standardized subject weights:** Mice across all groups should be weight-matched at enrollment to eliminate body weight as a confounding variable and enable cleaner cross-group comparisons.
 - **Real-time data oversight:** Clinical trial managers should review data immediately after collection at each timepoint, enabling the prompt identification and resolution of anomalies before they propagate through the dataset.
 
-**Future Analytical Opportunities**
+---
+
+## **Future Analytical Opportunities**
+
+---
 
 Once a valid and well-controlled study is available, several promising analytical directions become possible. Cost-effectiveness analysis — evaluating each treatment's therapeutic impact per dollar spent — would allow management to make more informed investment decisions. Additionally, the strong correlation observed between mouse weight and tumor volume under Capomulin suggests that weight-adjusted dosage optimization may be a productive area of investigation, both for Capomulin and for any other SCC treatment moving forward. These analyses, grounded in reliable data, could meaningfully advance the company's drug development strategy.
 

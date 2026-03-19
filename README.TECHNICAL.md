@@ -12,6 +12,8 @@ In addition to those modules, the Jupyter Notebook requires the following to exe
 
 Here are the requisite Terminal commands for the installation of these peripheral modules:
 
+pip3 install -U folium
+
 pip3 install -U holoviews
 
 pip3 install -U hvplot
@@ -289,7 +291,7 @@ Jupyter Notebook, Matplotlib, Numpy, Pandas, Python 3.11.5
 
   &emsp; |&rarr; [./logs/20240419pymaceuticals_log.txt](./logs/20240419pymaceuticals_log.txt)
 
-  &emsp; |&rarr; [./logs/20260304pymaceuticals_log.txt](./logs/20260304pymaceuticals_log.txt)
+  &emsp; |&rarr; [./logs/20260318pymaceuticals_log.txt](./logs/20260318pymaceuticals_log.txt)
 
   &emsp; |&rarr; [./logs/README.md](./logs/README.md)
 

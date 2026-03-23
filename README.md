@@ -12,9 +12,7 @@ This analysis examines the effects of a placebo and nine drug treatment regimens
 
 ---
 
-<img width="1108" alt="4_2_1_tumor_volume_by_drug_regimen" src="https://github.com/njgeorge000158/Pharmaceutical-Animal-Study-Analysis-with-Matplotlib/assets/137228821/c0c6add1-413c-4efc-88a4-6fb00e01fee7">
-
----
+<img width="3248" height="2319" alt="pymaceuticalsFigure42TumorVolumeLastbyDrugRegimenDistribution" src="https://github.com/user-attachments/assets/52d8bcee-134a-40df-82bc-6c12475e7aad" />
 
 ## **Efficacy of the Top Four Treatments**
 

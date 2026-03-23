@@ -5548,7 +5548,7 @@ def regr_line \
             (x_array, y_array, degree_int)
 
 
-    proc_rvalues(rvalue)
+    proc_rvalues(math.sqrt(r_sqr_flt))
 
 
 # In[90]:

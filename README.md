@@ -30,10 +30,6 @@ Median tumor volumes reinforce this hierarchy. Ramicane and Capomulin achieve th
 
 <img width="3393" height="2319" alt="pymaceuticalsFigure74MouseWeightDistributionsforEachTreatmentGroup" src="https://github.com/user-attachments/assets/1387558c-b256-41a0-94d4-80cc4b38365e" />
 
-<img width="5283" height="2484" alt="pymaceuticalsFigure732TumorVolumesvsMouseWeightsPlotswithHighCorrelation" src="https://github.com/user-attachments/assets/112a338d-7e61-45cf-ab2f-5cf32bba7630" />
-
-<img width="6061" height="2895" alt="pymaceuticalsFigure822MouseGenderDistributionRegimensPieCharts" src="https://github.com/user-attachments/assets/0374d351-918d-4626-928e-de5bf50a2af3" />
-
 ---
 
 ## **Data Quality and Integrity Concerns**
@@ -46,6 +42,13 @@ The numerical consequences of this imbalance are significant. Assuming a complet
 
 Taken together, these irregularities present a troubling picture. Whether the result of administrative negligence or a deliberate effort to skew results in favor of certain treatments, the asymmetry in data collection systematically advantages Ramicane and Capomulin while disadvantaging the remaining regimens. No meaningful efficacy comparison can be made under these conditions.
 
+---
+
+<img width="5283" height="2484" alt="pymaceuticalsFigure732TumorVolumesvsMouseWeightsPlotswithHighCorrelation" src="https://github.com/user-attachments/assets/112a338d-7e61-45cf-ab2f-5cf32bba7630" />
+
+<img width="6061" height="2895" alt="pymaceuticalsFigure822MouseGenderDistributionRegimensPieCharts" src="https://github.com/user-attachments/assets/0374d351-918d-4626-928e-de5bf50a2af3" />
+
+---
 ## **Study Validity and Recommendations**
 
 Based on the evidence, this study should be invalidated. The combination of asymmetrical data collection, suspicious inconsistencies, insufficient per-treatment sample sizes, and inadequate quality control renders its findings unreliable. Ostensibly, Ramicane appears to be the most effective treatment, with Capomulin a close second — but these conclusions cannot be accepted with confidence given the integrity issues identified. Ceftamin and Infubinol, meanwhile, show no discernible reduction in tumor volume beyond placebo levels, though even this conclusion is difficult to state definitively given the compromised data.

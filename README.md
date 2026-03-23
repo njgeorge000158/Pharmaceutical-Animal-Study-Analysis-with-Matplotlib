@@ -30,7 +30,9 @@ Median tumor volumes reinforce this hierarchy. Ramicane and Capomulin achieve th
 
 <img width="3393" height="2319" alt="pymaceuticalsFigure74MouseWeightDistributionsforEachTreatmentGroup" src="https://github.com/user-attachments/assets/1387558c-b256-41a0-94d4-80cc4b38365e" />
 
-<img width="1106" alt="7_3_11_tumor_volumes_vs_mouse_weights" src="https://github.com/njgeorge000158/Pharmaceutical-Animal-Study-Analysis-with-Matplotlib/assets/137228821/679724d1-bcf5-4e37-afed-261f0687b70f">
+<img width="5283" height="2484" alt="pymaceuticalsFigure732TumorVolumesvsMouseWeightsPlotswithHighCorrelation" src="https://github.com/user-attachments/assets/112a338d-7e61-45cf-ab2f-5cf32bba7630" />
+
+<img width="6061" height="2895" alt="pymaceuticalsFigure822MouseGenderDistributionRegimensPieCharts" src="https://github.com/user-attachments/assets/0374d351-918d-4626-928e-de5bf50a2af3" />
 
 ---
 
